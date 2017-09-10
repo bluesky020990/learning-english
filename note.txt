@@ -1,7 +1,10 @@
-source
-   javascript
-       bootstrap
-       component
-       page-scoring
-data
-config
+To definitely be able to login using https protocol, you should first set your authentication credential to the git Remote URI:
+
+git remote set-url origin https://yourusername@github.com/user/repo.git
+Then you'll be asked for a password when trying to git push.
+
+In fact, this is on the http authentication format. You could set a password too:
+
+https://youruser:password@github.com/user/repo.git
+
+You should be aware that if you do this, your github password will be stored in plaintext in your .git directory, which is obviously undesirable.

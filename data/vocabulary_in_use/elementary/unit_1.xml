@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unit>
+    <code>unit_1</code>
+    <title>Unit 1</title>
+    <description>
+        <![CDATA[Present continuous (<b>I am doing</b>)]]>
+    </description>
+
+    <lessonGroup>
+        <lessonContent>
+            <![CDATA[
+                <i>Study this example situation:</i><br />
+
+                <div style="width: 100%">
+                    <div style="width: 50%; float: left">
+                        Sarah is in her car. She is on her way to work.<br/>
+                        She is driving to work.<br/>
+                        This means: she is driving now, at the time of speaking.<br/>
+                        The action is not finished.<br/>
+                        <br/>
+                    </div>
+
+                    <div style="width: 49%; float: right; min-height: 60px; border: 1px solid red">
+
+                    </div>
+                </div>
+                <br class="clear-both"/>
+
+                <p>Am/is/are+ -ing is the present continuous:</p>
+
+                <table class="table-border-around" cellpadding="0" cellspacing="0" border="0" >
+                    <tr>
+                        <td style="text-align: right">I am (=I'm)</td>
+                        <td>driving</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right">he/she/it is (=he's etc.)</td>
+                        <td>working</td>
+
+                    </tr>
+                    <tr>
+                        <td style="text-align: right">we/you/they are (=we're etc.)</td>
+                        <td>doing etc</td>
+                    </tr>
+                </table>
+            ]]>
+        </lessonContent>
+        <lessonContent>
+            <![CDATA[
+                I am doing something = I'm in the middle of doing it; I've started doing it and I haven't finished:
+                <ul class="check-list-items">
+                    <li>Please don't make so much noise. I'm trying t o work. (not I try)</li>
+                    <li>'Where's Mark?' 'He's having a shower.' (not He has a shower)</li>
+                    <li>Let's go out now. lt isn't raining any more. (not lt doesn't rain)</li>
+                    <li>(at a party) Hi, jane. Are you enjoying the party? (not Do you enjoy)</li>
+                </ul>
+
+                <p>Sometimes the action is not happening at the time of speaking. For example:</p>
+
+                <div class="example-content">
+                    Steve is talking to a friend on the phone. He says:<br/>
+
+                    Steve is not reading the book at the time of speaking.<br/>
+                    He means that he has started it, but has not finished it yet.<br/>
+                    He is in the middle of reading it<br/>
+                </div>
+
+                <p>Some more examples:</p>
+
+                <ul class="check-list-items">
+                    <li>Kate wants to work in Italy, so she's Learning Italian. (but perhaps she isn't learning Italian
+                        at the time of speaking)</li>
+                    <li>Some friends of mine are building their own house. They hope to finish it next summer</li>
+                </ul>
+            ]]>
+        </lessonContent>
+        <lessonContent>
+            <![CDATA[
+                You can use the present continuous with today I this week I this year et c. (periods around now):
+
+                <ul class="check-list-items">
+                    <li>A: You're working hard today. (not You work hard today)<br />
+                        Yes, I have a lot to do.
+                    </li>
+                    <li>The company I work for isn't doing so well this year.</li>
+                </ul>
+            ]]>
+        </lessonContent>
+        <lessonContent>
+            <![CDATA[
+                We use the present continuous when we talk about changes happening around now, especially
+                with these verbs:
+
+                <div class="word-box">
+                    <span class="term">get</span>
+                    <span class="term">change</span>
+                    <span class="term">become</span>
+                    <span class="term">increase</span>
+                    <span class="term">rise</span>
+                    <span class="term">fall</span>
+                    <span class="term">grow</span>
+                    <span class="term">improve</span>
+                </div>
+
+                <ul class="check-list-items">
+                    <li><b>Is</b> your English <b>getting</b> better? (not Does your English get better)</li>
+                    <li>The population of the world <b>is increasing</b> very fast. (not increases)</li>
+                    <li>At first I didn't like my job, but I'<b>m beginning</b> to enj oy it now. (not I begin}
+                        begin star</li>
+                </ul>
+            ]]>
+        </lessonContent>
+    </lessonGroup>
+    <questionGroup>
+        <questionItem>
+            <number>1</number>
+            <direction>
+                <![CDATA[ The sentences on the right follow those on the left. Which sentence goes with which? ]]>
+            </direction>
+            <content>
+                <![CDATA[
+                    <span componentType="Matching-Component" componentId="1_1">
+                        <span idx="sourceItems">
+                            <span idx="1">Please don't make so much noise.</span>
+                            <span idx="2">I need to eat something soon.</span>
+                            <span idx="3">I don't have anywhere to live right now.</span>
+                            <span idx="4">We need to leave soon.</span>
+                            <span idx="5">They don't need their car any more.</span>
+                            <span idx="6">Things are not so good at work.</span>
+                            <span idx="7">lt isn't true what they said.</span>
+                            <span idx="8">We're going to get wet .</span>
+                        </span>
+
+                        <span idx="targetItems">
+                            <span idx="a">lt's getting late</span>
+                            <span idx="b">They're lying.</span>
+                            <span idx="c">lt's starting to rain.</span>
+                            <span idx="d">They're trying to sell it.</span>
+                            <span idx="e">I'm getting hungry.</span>
+                            <span idx="f">I'm trying to work</span>
+                            <span idx="g">I'm looking for an apartment.</span>
+                            <span idx="h">The company is losing money.</span>
+                        </span>
+                    </span>
+                ]]>
+            </content>
+            <answer></answer>
+        </questionItem>
+
+        <questionItem>
+            <number>2</number>
+            <direction>Complete the conversations</direction>
+            <content>
+                <![CDATA[
+                    <div class="question-conversation">
+                        A: I saw Brian a few days ago.<br/>
+                        B: Oh, did you? . <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(what I he I do)"></span> these days?<br/>
+                        A: He's at university.<br/>
+                        B: <span componentType="Fill_in_Blank" componentId="1_2_2" hint="(what I he I study)"></span> ? <br/>
+                        A: Psychology.<br/>
+                        B: <span componentType="Fill_in_Blank" componentId="1_2_3" hint="(he I enjoy)"></span> it? <br/>
+                        A: Yes, he says it's a very good course.<br/>
+                    </div>
+
+                    <div class="question-conversation">
+                        A: Hi, Nicola. How <span componentType="Fill_in_Blank" componentId="1_2_4" hint="(your new job I go)"></span> ?<br/>
+                        B: Not bad. lt wasn't so good at first, but <span componentType="Fill_in_Blank" componentId="1_2_4" hint="(it / get)"></span> better now. <br/>
+                        A: What about Daniel? Is he OK?<br/>
+                        B: Yes, but <span componentType="Fill_in_Blank" componentId="1_2_4" hint="(he / not / enjoy)"></span> his work right now. <br/>
+                        He's been in the same job for a long time and <span componentType="Fill_in_Blank" componentId="1_2_4" hint="(he / begin)"></span> to get bored
+                        with it.
+                    </div>
+                ]]>
+            </content>
+            <answer></answer>
+        </questionItem>
+
+        <questionItem>
+            <number>1</number>
+            <direction>
+                <![CDATA[ Put the verb into the correct form, positive (I'm doing etc.) or negative (I'm not doing etc.). ]]>
+
+            </direction>
+            <content>
+                <![CDATA[
+                    <ul class="question-items">
+                        <li>Please don't make so much noise. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(I I try)"></span>. to work.</li>
+                        <li>Let's go out now. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(it I rain)"></span>  any more.</li>
+                        <li>You can turn off t he radio. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(I I listen)"></span>  to it.</li>
+                        <li>Kate phoned me last night. She's on holiday in France. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(she I have)"></span> great time and doesn't want to come back.</li>
+                        <li>I want to lose weight, so this week <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(I I eat)"></span>  lunch.</li>
+                        <li>Andrew has just started evening classes. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(he I learn)"></span>  Japanese.</li>
+                        <li>Paul and Sally have had an argument. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(they I speak)"></span>  to each other.</li>
+                        <li><span componentType="Fill_in_Blank" componentId="1_2_1" hint="(I get)"></span>  tired. I need a rest.</li>
+                        <li>Tim <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(work)"></span> today. He's taken the day off.</li>
+                        <li><span componentType="Fill_in_Blank" componentId="1_2_1" hint="(I I look)"></span> (I I look) for Sophie. Do you know where she is?</li>
+                    </ul>
+                ]]>
+            </content>
+            <answer></answer>
+        </questionItem>
+
+        <questionItem>
+            <number>1</number>
+            <direction>
+                <![CDATA[
+                    Complete the sentences using the following verbs:
+                ]]>
+            </direction>
+            <content>
+                <![CDATA[
+                    <div class="word-box-component">
+                        <div class="work-box-display">
+                            <span class="draggable">start</span>
+                            <span class="draggable">get</span>
+                            <span class="draggable">increase</span>
+                            <span class="draggable">change</span>
+                            <span class="draggable">rise</span>
+                        </div>
+
+                        <ul class="question-items">
+                            <li>The population of the world ~s i,ncr.~mg very fast.</li>
+                            <li>The world ......... . ................................................. . Things never stay the same.</li>
+                            <li>The situation is already bad and it .. .. .... ..... . ......................... .... worse.</li>
+                            <li>The cost of living ..... ........... ............... . Every year things are more expensive.</li>
+                            <li>The weather .. . ..... to improve. The rain has stopped, and the wind isn't as strong.</li>
+                        </ul>
+                    </div>
+                ]]>
+            </content>
+            <answer></answer>
+        </questionItem>
+    </questionGroup>
+    <relativeUnits>
+        <relative>Unit 2</relative>
+        <relative>Unit 3</relative>
+    </relativeUnits>
+</unit>

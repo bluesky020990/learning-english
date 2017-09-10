@@ -1,0 +1,47 @@
+#page-container-display {
+  margin-top: 55px;
+  margin-bottom: 30px; }
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%; }
+
+#program-series-tab {
+  text-align: center;
+  margin-bottom: 25px; }
+
+.program-series-container {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px; }
+  .program-series-container[target="vocabulary_in_use"] .program-series-header {
+    width: 308.51064px;
+    height: 100px;
+    background: url("../images/book-icon/english-vocabulary.png") scroll top left no-repeat;
+    background-size: contain; }
+  .program-series-container[target="grammar_in_use"] .program-series-header {
+    width: 223.40426px;
+    height: 100px;
+    background: url("../images/book-icon/english-grammar.png") scroll top left no-repeat;
+    background-size: contain; }
+  .program-series-container[target="pronunciation_in_use"] .program-series-header {
+    width: 212.76596px;
+    height: 100px;
+    background: url("../images/book-icon/english-pronunciation.png") scroll top left no-repeat;
+    background-size: contain; }
+  .program-series-container .program-series-title {
+    font-weight: bold;
+    margin-top: 5px; }
+
+.program-series-list-items {
+  display: none; }
+  .program-series-list-items.active {
+    display: block; }
+
+.resource-footer {
+  display: none; }
+  .resource-footer.active {
+    display: block; }
+
+/*# sourceMappingURL=style.css.map */

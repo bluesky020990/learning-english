@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category>
+    <programSeries>
+        <programSeriesCode>vocabulary_in_use</programSeriesCode>
+        <programSeriesName>Vocabulary In Use</programSeriesName>
+
+        <products>
+            <product>
+                <productCode>vocabulary_in_use_elementary</productCode>
+                <productName>Vocabulary In Use Elementary</productName>
+                <listUnits>
+                    <unit>
+                        <unitCode>unit_1</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_2</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_3</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_4</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_5</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_6</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_7</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_8</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_9</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_11</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                </listUnits>
+            </product>
+
+            <product>
+                <productCode>vocabulary_in_use_intermediate</productCode>
+                <productName>Vocabulary In Use Intermediate</productName>
+                <listUnits>
+                    <unit>
+                        <unitCode>unit_1</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_1</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_1</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_1</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_1</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                </listUnits>
+            </product>
+        </products>
+    </programSeries>
+
+    <programSeries>
+        <programSeriesCode>grammar_in_use</programSeriesCode>
+        <programSeriesName>Grammar In Use</programSeriesName>
+        <products>
+            <product>
+                <productCode>grammar_in_use_elementary</productCode>
+                <productName>Grammar In Use Elementary</productName>
+                <listUnits>
+                    <unit>
+                        <unitCode>unit_1</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+
+                    <unit>
+                        <unitCode>unit_2</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+
+                    <unit>
+                        <unitCode>unit_3</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+
+                    <unit>
+                        <unitCode>unit_4</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                </listUnits>
+            </product>
+
+            <product>
+                <productCode>grammar_in_use_intermediate</productCode>
+                <productName>Grammar In Use Intermediate</productName>
+                <listUnits>
+                    <unit>
+                        <unitCode>unit_1</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+
+                    <unit>
+                        <unitCode>unit_2</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+
+                    <unit>
+                        <unitCode>unit_3</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+
+                    <unit>
+                        <unitCode>unit_4</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                </listUnits>
+            </product>
+        </products>
+    </programSeries>
+
+    <programSeries>
+        <programSeriesCode>pronunciation_in_use</programSeriesCode>
+        <programSeriesName>Pronunciation In Use</programSeriesName>
+        <products>
+            <product>
+                <productCode>pronunciation_in_use_elementary</productCode>
+                <productName>Pronunciation In Use Elementary</productName>
+                <listUnits>
+                    <unit>
+                        <unitCode>unit_1</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_2</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_3</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_4</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                    <unit>
+                        <unitCode>unit_5</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                </listUnits>
+            </product>
+
+            <product>
+                <productCode>pronunciation_in_use_intermediate</productCode>
+                <productName>Pronunciation In Use Intermediate</productName>
+                <listUnits>
+                    <unit>
+                        <unitCode>unit_1</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+
+                    <unit>
+                        <unitCode>unit_2</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+
+                    <unit>
+                        <unitCode>unit_3</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+
+                    <unit>
+                        <unitCode>unit_4</unitCode>
+                        <unitName>Present continuous</unitName>
+                        <xmlSource>../data/vocabulary_in_use/elementary/unit_1.xml</xmlSource>
+                    </unit>
+                </listUnits>
+            </product>
+        </products>
+    </programSeries>
+</category>

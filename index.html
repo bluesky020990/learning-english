@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>English Book - Create by Khanh Tran</title>
+
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="page_layout/css/style.css">
+    <link rel="stylesheet" href="lib/font/font-family.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="lib/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="lib/bootbox.min.js"></script>
+
+
+
+    <!--load data for view -->
+    <script src="page_layout/js/global.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-data-display">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Khanh Tran</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-data-display">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a data-toggle="collapse" data-target="#program-series-tab" href="#" data-parent="#navbar-data-display">Program Series</a></li>
+                        <li><a data-toggle="collapse" data-target="#report-tab" href="#" data-parent="#navbar-data-display">Report</a></li>
+                        <li><a data-toggle="collapse" data-target="#performance-tab" href="#">Performance</a></li>
+                        <li><a href="#about-tab">About</a></li>
+                    </ul>
+
+                    <div class="row">
+                        <div class="col-lg-12 collapse" id="program-series-tab"></div>
+
+                        <div class="col-lg-12 collapse" id="report-tab">
+                            Report content display here
+                        </div>
+                        <div class="col-lg-12 collapse" id="performance-tab">
+                            Compare Performance tab display here
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid" id="page-container-display">
+        <div class="row">
+            <div class="col-lg-3" id="unitItemsDisplay"></div>
+
+            <div class="col-lg-9" id="unitContentDisplay">
+
+                <div class="row">
+                    <div class="col-lg-12" id="action-group">
+                        <div class="resource-header-content">
+                            <div class="resource-header-title pull-left" style="display: none">
+                                <h3></h3>
+                            </div>
+
+                            <div class="resource-actions btn-group pull-right" style="display: none">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Display Answer <span class="caret"></span></button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#" id="show-answer-button">Show Answer</a></li>
+                                        <li><a href="#" id="hide-answer-button">Clear Answer</a></li>
+                                    </ul>
+                                </div>
+
+                                <button class="btn btn-success" id="check-answer-button">Check Answer</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12" id="content-unit-container">
+                        <!--<iframe id="unitContentViewer" src="unit-content.html" style="width: 100%; height: auto; border: 1px solid #000;"></iframe>-->
+                    </div>
+
+                    <div class="col-lg-12 resource-footer">
+                        <ul class="pager">
+                            <li class="pull-left"><a href="#">Go to previous</a></li>
+                            <li class="pull-right"><a href="#">Go to next</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <p>By Khanh Tran (bluesky020990@gmail.com)</p>
+    </footer>
+</body>
+<script>
+    $(document).ready(function(){
+        loadProductData();
+
+        $('#show-answer-button').click(function(){
+            bootbox.confirm({
+                message: "<p>Nè, sao lười thế, chưa gì đã xem đáp án là sao hả Mọi Mọi?</p><p>Giờ tóm lại là show hay ko?</p>",
+                buttons: {
+                    confirm: {
+                        label: 'Xem đáp án',
+                        className: 'btn-success'
+                    },
+                    cancel: {
+                        label: 'Thôi, để em tự làm',
+                        className: 'btn-danger'
+                    }
+                }, callback: function (result) {
+                    if(result){
+                        document.getElementById('unitContentViewer').contentWindow.showAnswer();
+                    }
+                }
+            });
+        });
+
+        $('#check-answer-button').click(function(){
+            document.getElementById('unitContentViewer').contentWindow.checkAnswer();
+        });
+    });
+
+
+</script>
+</html>

@@ -1,0 +1,7 @@
+source
+   javascript
+       bootstrap
+       component
+       page-scoring
+data
+config

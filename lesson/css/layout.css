@@ -5,6 +5,7 @@ body {
   font-size: 18px;
   line-height: 26px;
   font-family: "HelveticaNeue";
+  color: #333333;
   overflow: hidden; }
 
 .unit-title {
@@ -128,7 +129,8 @@ br.clear-both {
   padding: 10px 10px 20px 50px;
   border: 2px solid #006699;
   margin-bottom: 30px;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .question-group .question-content {
     margin-top: 12px; }
   .question-group .question-conversation {

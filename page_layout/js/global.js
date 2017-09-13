@@ -214,23 +214,31 @@ function bindEventForPage(){
                 loadNewResource(unitListItem);
             }
         }
-
-        function loadNewResource(unitListItem){
-            $('#unitItemsDisplay').find('.unit-list-item.active').removeClass("active");
-
-            var targetUrl = $(unitListItem).attr("sourceItem");
-            loadResource(targetUrl);
-
-            $(unitListItem).addClass("active");
-        }
     });
 
-    function loadResource(targetUrl) {
-        $('#content-unit-container').find('#unitContentViewer').remove();
-        currentResourceXMLDataSource = targetUrl;
+    loadSampleLayout();
+}
 
-        $('<iframe id="unitContentViewer" src="lesson/unit-content.html" style="width: 100%; height: auto; border: 2px solid #ccc;"/>').appendTo($('#content-unit-container'));
-    }
+
+function loadNewResource(unitListItem){
+    $('#unitItemsDisplay').find('.unit-list-item.active').removeClass("active");
+
+    var targetUrl = $(unitListItem).attr("sourceItem");
+    loadResource(targetUrl);
+
+    $(unitListItem).addClass("active");
+}
+
+function loadResource(targetUrl) {
+    $('#content-unit-container').find('#unitContentViewer').remove();
+    currentResourceXMLDataSource = targetUrl;
+
+    $('<iframe id="unitContentViewer" src="lesson/unit-content.html" style="width: 100%; height: auto; margin-bottom: 50px; border: 1.1px solid #ccc;"/>').appendTo($('#content-unit-container'));
+}
+
+function loadSampleLayout() {
+    var sampleUrl = "../data/vocabulary_in_use/elementary/unit_1.xml";
+    loadResource(sampleUrl);
 }
 
 function loadResourceXMData(targetUrl) {

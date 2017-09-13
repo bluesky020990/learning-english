@@ -6,6 +6,7 @@ body{
   font-size: 18px;
   line-height: 26px;
   font-family: "HelveticaNeue";
+  color: #333333;
   overflow: hidden;
 }
 
@@ -178,6 +179,7 @@ br.clear-both {
   border: 2px solid #006699;
   margin-bottom: 30px;
   position: relative;
+  overflow: hidden;
 
   .question-content {
     margin-top: 12px;

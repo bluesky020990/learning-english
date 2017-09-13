@@ -4,8 +4,8 @@ function componentTE() {
     var me = this;
 
     this.initComponent = function () {
-        if ($('div[ctype="' + COUNTER_TYPE + '"]').length > 0) {
-            $('div[ctype="' + COUNTER_TYPE + '"]').each(function (index, component) {
+        if ($('[componentType="' + COUNTER_TYPE + '"]').length > 0) {
+            $('[componentType="' + COUNTER_TYPE + '"]').each(function (index, component) {
                 me.component_init(component, COUNTER_TYPE);
             });
         }

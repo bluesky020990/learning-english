@@ -1,0 +1,140 @@
+[componentType]{
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.draggable-on-drag{
+    z-index: 999;
+}
+
+.ui-draggable.ui-draggable-disabled,
+.ui-droppable.ui-droppable-disabled{
+    background: #EDEDED !important;
+}
+
+.ui-droppable.ui-droppable-hover{
+    background: #CFF9F2 !important;
+}
+
+.raphael-paper-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+[objectColor="red"],
+[objectColor="Red"] {
+    background-color: #ED1F24;
+}
+
+[objectColor="orange"] {
+    background-color: #F58220;
+}
+
+[objectColor="yellow"],
+[objectColor="yellow"] {
+    background-color: #FFCB05;
+}
+
+[objectColor="lightgreen"] {
+    background-color: #99FF00;
+}
+
+[objectColor="green"] {
+    background-color: #00A14B;
+}
+
+[objectColor="darkgreen"] {
+    background-color: #00AAAC;
+}
+
+[objectColor="aqua"] {
+    background-color: #00B4EB;
+}
+
+[objectColor="blue"],
+[objectColor="Blue"] {
+    background-color: #0474BB;
+}
+
+[objectColor="darkgreen"] {
+    background-color: #00AAAC;
+}
+
+[objectColor="purple"] {
+    background-color: #7956A4;
+}
+
+[objectColor="pink"] {
+    background-color: #FF00CC;
+}
+
+[objectColor="grey"] {
+    background-color: #999999;
+}
+
+[objectColor="dark"] {
+    background-color: #666666;
+}
+
+
+
+
+
+[borderColor="red"],
+[borderColor="Red"] {
+    border-color: #ED1F24;
+}
+
+[borderColor="orange"] {
+    border-color: #F58220;
+}
+
+[borderColor="yellow"],
+[borderColor="yellow"] {
+    border-color: #FFCB05;
+}
+
+[borderColor="lightgreen"] {
+    border-color: #99FF00;
+}
+
+[borderColor="green"] {
+    border-color: #00A14B;
+}
+
+[borderColor="darkgreen"] {
+    border-color: #00AAAC;
+}
+
+[borderColor="aqua"] {
+    border-color: #00B4EB;
+}
+
+[borderColor="blue"],
+[borderColor="Blue"] {
+    border-color: #0474BB;
+}
+
+[borderColor="darkgreen"] {
+    border-color: #00AAAC;
+}
+
+[borderColor="purple"] {
+    border-color: #7956A4;
+}
+
+[borderColor="pink"] {
+    border-color: #FF00CC;
+}
+
+[borderColor="grey"] {
+    border-color: #999999;
+}
+
+[borderColor="dark"] {
+    border-color: #666666;
+}

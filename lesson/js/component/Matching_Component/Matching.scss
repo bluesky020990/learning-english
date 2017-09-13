@@ -1,0 +1,69 @@
+[componentType="Matching-Component"]{
+  border: 10px solid #ccc;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  padding: 20px 30px;
+
+  [idx="sourceItems"],
+  [idx="targetItems"]{
+    width: 40%;
+
+    [idx]{
+      padding: 10px 15px;
+      display: block;
+      box-sizing: content-box;
+      padding-left: 50px;
+      position: relative;
+
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background: white;
+      border-radius: 6px;
+      cursor: pointer;
+
+      &:before{
+        content: attr(idx);
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -50%);
+        width: 50px;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
+
+
+
+  }
+
+  [idx="sourceItems"]{
+    float: left;
+    [idx]{
+      border-width: 2px;
+      border-style:dashed;
+    }
+  }
+
+  [idx="targetItems"]{
+    float: right;
+
+    [idx]{
+      border-width: 2px;
+      border-style: solid;
+    }
+  }
+
+  .ui-draggable.ui-draggable-disabled{
+    border-style: solid;
+  }
+
+  .ui-droppable.ui-droppable-disabled{
+    border-style: solid;
+  }
+
+
+}

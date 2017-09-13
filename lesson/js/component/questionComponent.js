@@ -4,6 +4,7 @@ function QuestionComponent() {
 
     var componentMap = {};
     componentMap[FILL_IN_BLANK_TYPE] = fibComponent;
+    componentMap[MATCHING_TYPE] = matchingComponent;
 
 
     // set to array

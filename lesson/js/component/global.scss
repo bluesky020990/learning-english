@@ -1,0 +1,146 @@
+[componentType][componentid]{
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+.draggable-on-drag{
+  z-index: 999;
+}
+
+.ui-draggable.ui-draggable-disabled,
+.ui-droppable.ui-droppable-disabled{
+  background: #EDEDED !important;
+}
+
+.ui-droppable.ui-droppable-hover{
+  background: #CFF9F2 !important;
+}
+
+.raphael-paper-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+[objectColor="red"],
+[objectColor="Red"] {
+  background-color: #ED1F24 !important;
+}
+
+[objectColor="orange"] {
+  background-color: #F58220 !important;
+}
+
+[objectColor="yellow"],
+[objectColor="yellow"] {
+  background-color: #FFCB05 !important;
+}
+
+[objectColor="lightgreen"] {
+  background-color: #99FF00 !important;
+}
+
+[objectColor="green"] {
+  background-color: #00A14B !important;
+}
+
+[objectColor="darkgreen"] {
+  background-color: #00AAAC !important;
+}
+
+[objectColor="aqua"] {
+  background-color: #00B4EB !important;
+}
+
+[objectColor="blue"],
+[objectColor="Blue"] {
+  background-color: #0474BB !important;
+}
+
+[objectColor="darkgreen"] {
+  background-color: #00AAAC !important;
+}
+
+[objectColor="purple"] {
+  background-color: #7956A4 !important;
+}
+
+[objectColor="pink"] {
+  background-color: #FF00CC !important;
+}
+
+[objectColor="grey"] {
+  background-color: #999999 !important;
+}
+
+[objectColor="dark"] {
+  background-color: #666666 !important;
+}
+
+
+
+
+
+[borderColor="red"],
+[borderColor="Red"] {
+  border-color: #ED1F24 !important;
+}
+
+[borderColor="orange"] {
+  border-color: #F58220 !important;
+}
+
+[borderColor="yellow"],
+[borderColor="yellow"] {
+  border-color: #FFCB05 !important;
+}
+
+[borderColor="lightgreen"] {
+  border-color: #99FF00 !important;
+}
+
+[borderColor="green"] {
+  border-color: #00A14B !important;
+}
+
+[borderColor="darkgreen"] {
+  border-color: #00AAAC !important;
+}
+
+[borderColor="aqua"] {
+  border-color: #00B4EB !important;
+}
+
+[borderColor="blue"],
+[borderColor="Blue"] {
+  border-color: #0474BB !important;
+}
+
+[borderColor="darkgreen"] {
+  border-color: #00AAAC !important;
+}
+
+[borderColor="purple"] {
+  border-color: #7956A4 !important;
+}
+
+[borderColor="pink"] {
+  border-color: #FF00CC !important;
+}
+
+[borderColor="grey"] {
+  border-color: #999999 !important;
+}
+
+[borderColor="dark"] {
+  border-color: #666666 !important;
+}
+
+
+@import "Audio_Component/audio_component";
+@import "Fill_in_Blank_Component/fill_in_blank";
+@import "Matching_Component/Matching";
+@import "Drag_n_Drop_Component/Drag_n_Drop";

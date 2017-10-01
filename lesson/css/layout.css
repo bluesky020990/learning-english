@@ -23,7 +23,7 @@ body {
   text-align: center; }
 
 .resource-container {
-  padding-top: 65px;
+  padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px; }
 
@@ -32,7 +32,8 @@ body {
   color: #006699;
   font-size: 36px;
   line-height: 44px;
-  margin: 0px 0px 20px 0px; }
+  margin: 0px 0px 20px 0px;
+  width: calc(100% - 250px); }
 
 .resource-content {
   height: auto;
@@ -74,7 +75,7 @@ body {
   margin-bottom: 30px;
   padding: 15px 15px 20px;
   font-size: 20px;
-  line-height: 36px; }
+  line-height: 30px; }
   .lesson-item .lesson-title {
     float: left;
     width: 40px;
@@ -127,11 +128,13 @@ br.clear-both {
   clear: both; }
 
 .question-group {
-  padding: 10px 10px 20px 50px;
+  float: left;
+  width: 100%;
+  padding: 15px 15px 15px 50px;
   border: 2px solid #006699;
   margin-bottom: 30px;
   position: relative;
-  overflow: hidden; }
+  box-sizing: border-box; }
   .question-group .question-content {
     margin-top: 12px; }
   .question-group .question-conversation {
@@ -179,114 +182,24 @@ br.clear-both {
   color: #666;
   margin-bottom: 0px; }
 
-.audio-component {
-  display: inline-block;
-  position: absolute;
-  top: 0px;
-  left: -10px;
-  width: 42px;
-  height: 42px;
-  transform: translate(-100%, 0%);
-  background: url(../assests/icons/audio_sprite.png) no-repeat transparent;
-  -webkit-background-size: auto 100%;
-  -moz-background-size: auto 100%;
-  background-size: auto 100%;
-  background-position: 0% 0%;
-  cursor: pointer; }
+.lesson-content br,
+.question-content br {
+  display: inline;
+  clear: none; }
+  .lesson-content br.break-new-line,
+  .question-content br.break-new-line {
+    display: inline-block !important;
+    clear: none !important;
+    content: " " !important;
+    width: 100% !important;
+    height: 13px;
+    line-height: 13px; }
 
 .content-wide-space {
   word-spacing: 20px; }
 
-.audio-component-player {
-  height: auto;
-  position: absolute;
-  background: white;
-  border: 2px solid #F58220;
-  box-shadow: 3px 3px 4px #ccc;
-  padding: 20px;
-  border-radius: 10px;
-  transform: translate(-40px, -100%);
-  margin-top: -10px; }
-  .audio-component-player:before, .audio-component-player:after {
-    content: "";
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 16px 10px 0 10px;
-    border-color: #F58220 transparent transparent transparent;
-    position: absolute;
-    left: 39px;
-    transform: translate(-50%, 100%); }
-  .audio-component-player:before {
-    bottom: 0px;
-    border-color: #F58220 transparent transparent transparent; }
-  .audio-component-player:after {
-    border-color: #FFF transparent transparent transparent;
-    bottom: 4px; }
-  .audio-component-player .audio-controller {
-    float: left;
-    border-right: 1px solid #c5c5c5;
-    width: 45px;
-    text-align: center; }
-    .audio-component-player .audio-controller .audio-play-button {
-      display: inline-block;
-      width: 30px;
-      height: 30px;
-      background: url("../assests/icons/play_sprite.png") no-repeat transparent;
-      -webkit-background-size: auto 100%;
-      -moz-background-size: auto 100%;
-      background-size: auto 100%;
-      background-position: 50% 0%;
-      cursor: pointer;
-      float: left; }
-      .audio-component-player .audio-controller .audio-play-button:hover {
-        background-position: 0% 0%; }
-      .audio-component-player .audio-controller .audio-play-button.playing {
-        background: url("../assests/icons/pause_sprite.png") no-repeat transparent;
-        -webkit-background-size: auto 100%;
-        -moz-background-size: auto 100%;
-        background-size: auto 100%;
-        background-position: 50% 0%; }
-        .audio-component-player .audio-controller .audio-play-button.playing:hover {
-          background-position: 0% 0%; }
-  .audio-component-player .audio-player {
-    float: left; }
-    .audio-component-player .audio-player .process-time, .audio-component-player .audio-player .total-time {
-      float: left;
-      width: 60px;
-      height: 30px;
-      line-height: 30px;
-      padding-left: 15px; }
-    .audio-component-player .audio-player .song-slider {
-      float: left;
-      width: 400px;
-      height: 30px; }
-      .audio-component-player .audio-player .song-slider .line-song {
-        width: 100%;
-        height: 100%;
-        position: relative; }
-        .audio-component-player .audio-player .song-slider .line-song:before {
-          width: 100%;
-          position: absolute;
-          background: #c5c5c5;
-          height: 4px;
-          content: "";
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%); }
-      .audio-component-player .audio-player .song-slider .track-progress {
-        position: absolute;
-        top: 50%;
-        cursor: pointer;
-        width: 12px;
-        height: 12px;
-        border: 5px solid transparent;
-        background: #999;
-        border-radius: 100%;
-        transform: translate(-50%, -50%);
-        opacity: 1; }
-        .audio-component-player .audio-player .song-slider .track-progress :hover {
-          opacity: 0.6; }
+.default-text {
+  word-spacing: normal !important; }
 
 .pronunciation_in_use .unit-title {
   background: #E6555F; }
@@ -302,10 +215,28 @@ br.clear-both {
     color: #E6555F; }
   .pronunciation_in_use .lesson-content .content {
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px 20px;
     background: #f5f5f5;
-    border-radius: 6px; }
+    border-radius: 6px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box; }
+    .pronunciation_in_use .lesson-content .content.important-for-listening {
+      padding: 0px;
+      background: lightgoldenrodyellow; }
+      .pronunciation_in_use .lesson-content .content.important-for-listening .important-content {
+        padding: 10px 20px;
+        position: relative; }
+  .pronunciation_in_use .lesson-content .content-note {
+    position: relative;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #c5c5c5;
+    border-radius: 6px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box; }
 .pronunciation_in_use .audio-component-player {
   border: 2px solid #E6555F; }
   .pronunciation_in_use .audio-component-player:before, .pronunciation_in_use .audio-component-player:after {
@@ -314,5 +245,12 @@ br.clear-both {
     border-color: #E6555F transparent transparent transparent; }
   .pronunciation_in_use .audio-component-player:after {
     border-color: #FFF transparent transparent transparent; }
+.pronunciation_in_use b {
+  color: #E6555F; }
+.pronunciation_in_use .question-group {
+  padding-left: 100px; }
+  .pronunciation_in_use .question-group .audio-component {
+    left: 90px;
+    top: 10px; }
 
 /*# sourceMappingURL=layout.css.map */

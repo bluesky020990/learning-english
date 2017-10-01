@@ -5,7 +5,8 @@
 footer {
   position: fixed;
   bottom: 0px;
-  width: 100%; }
+  width: 100%;
+  background: white; }
 
 #program-series-tab {
   text-align: center;
@@ -30,6 +31,8 @@ footer {
     height: 100px;
     background: url("../images/book-icon/english-pronunciation.png") scroll top left no-repeat;
     background-size: contain; }
+  .program-series-container.active .program-series-title {
+    color: #3071a9; }
   .program-series-container .program-series-title {
     font-weight: bold;
     margin-top: 5px; }
@@ -43,5 +46,8 @@ footer {
   display: none; }
   .resource-footer.active {
     display: block; }
+
+#content-unit-container {
+  width: 1030px; }
 
 /*# sourceMappingURL=style.css.map */

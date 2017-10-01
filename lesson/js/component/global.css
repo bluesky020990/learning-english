@@ -1,140 +1,294 @@
-[componentType]{
-    box-sizing: border-box;
-    position: relative;
-}
+[componentType][componentid] {
+  box-sizing: border-box;
+  position: relative; }
 
-
-.draggable-on-drag{
-    z-index: 999;
-}
+.draggable-on-drag {
+  z-index: 999; }
 
 .ui-draggable.ui-draggable-disabled,
-.ui-droppable.ui-droppable-disabled{
-    background: #EDEDED !important;
-}
+.ui-droppable.ui-droppable-disabled {
+  background: #EDEDED !important; }
 
-.ui-droppable.ui-droppable-hover{
-    background: #CFF9F2 !important;
-}
+.ui-droppable.ui-droppable-hover {
+  background: #CFF9F2 !important; }
 
 .raphael-paper-container {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-}
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px; }
 
 [objectColor="red"],
 [objectColor="Red"] {
-    background-color: #ED1F24 !important;
-}
+  background-color: #ED1F24 !important; }
 
 [objectColor="orange"] {
-    background-color: #F58220 !important;
-}
+  background-color: #F58220 !important; }
 
 [objectColor="yellow"],
 [objectColor="yellow"] {
-    background-color: #FFCB05 !important;
-}
+  background-color: #FFCB05 !important; }
 
 [objectColor="lightgreen"] {
-    background-color: #99FF00 !important;
-}
+  background-color: #99FF00 !important; }
 
 [objectColor="green"] {
-    background-color: #00A14B !important;
-}
+  background-color: #00A14B !important; }
 
 [objectColor="darkgreen"] {
-    background-color: #00AAAC !important;
-}
+  background-color: #00AAAC !important; }
 
 [objectColor="aqua"] {
-    background-color: #00B4EB !important;
-}
+  background-color: #00B4EB !important; }
 
 [objectColor="blue"],
 [objectColor="Blue"] {
-    background-color: #0474BB !important;
-}
+  background-color: #0474BB !important; }
 
 [objectColor="darkgreen"] {
-    background-color: #00AAAC !important;
-}
+  background-color: #00AAAC !important; }
 
 [objectColor="purple"] {
-    background-color: #7956A4 !important;
-}
+  background-color: #7956A4 !important; }
 
 [objectColor="pink"] {
-    background-color: #FF00CC !important;
-}
+  background-color: #FF00CC !important; }
 
 [objectColor="grey"] {
-    background-color: #999999 !important;
-}
+  background-color: #999999 !important; }
 
 [objectColor="dark"] {
-    background-color: #666666 !important;
-}
-
-
-
-
+  background-color: #666666 !important; }
 
 [borderColor="red"],
 [borderColor="Red"] {
-    border-color: #ED1F24 !important;
-}
+  border-color: #ED1F24 !important; }
 
 [borderColor="orange"] {
-    border-color: #F58220 !important;
-}
+  border-color: #F58220 !important; }
 
 [borderColor="yellow"],
 [borderColor="yellow"] {
-    border-color: #FFCB05 !important;
-}
+  border-color: #FFCB05 !important; }
 
 [borderColor="lightgreen"] {
-    border-color: #99FF00 !important;
-}
+  border-color: #99FF00 !important; }
 
 [borderColor="green"] {
-    border-color: #00A14B !important;
-}
+  border-color: #00A14B !important; }
 
 [borderColor="darkgreen"] {
-    border-color: #00AAAC !important;
-}
+  border-color: #00AAAC !important; }
 
 [borderColor="aqua"] {
-    border-color: #00B4EB !important;
-}
+  border-color: #00B4EB !important; }
 
 [borderColor="blue"],
 [borderColor="Blue"] {
-    border-color: #0474BB !important;
-}
+  border-color: #0474BB !important; }
 
 [borderColor="darkgreen"] {
-    border-color: #00AAAC !important;
-}
+  border-color: #00AAAC !important; }
 
 [borderColor="purple"] {
-    border-color: #7956A4 !important;
-}
+  border-color: #7956A4 !important; }
 
 [borderColor="pink"] {
-    border-color: #FF00CC !important;
-}
+  border-color: #FF00CC !important; }
 
 [borderColor="grey"] {
-    border-color: #999999 !important;
-}
+  border-color: #999999 !important; }
 
 [borderColor="dark"] {
-    border-color: #666666 !important;
-}
+  border-color: #666666 !important; }
+
+.audio-component {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  width: 42px;
+  height: 42px;
+  transform: translate(-100%, 0%);
+  background: url("../../../lesson/assests/icons/audio_sprite.png") no-repeat transparent;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
+  background-position: 0% 0%;
+  cursor: pointer; }
+
+.audio-component-player {
+  height: auto;
+  position: absolute;
+  background: white;
+  border: 2px solid #F58220;
+  box-shadow: 3px 3px 4px #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  transform: translate(0%, -100%);
+  margin-top: -10px;
+  margin-left: -40px; }
+  .audio-component-player:before, .audio-component-player:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 10px 0 10px;
+    border-color: #F58220 transparent transparent transparent;
+    position: absolute;
+    left: 35px;
+    /*20 + 15*/
+    transform: translate(-50%, 100%); }
+  .audio-component-player:before {
+    bottom: 0px;
+    border-color: #F58220 transparent transparent transparent; }
+  .audio-component-player:after {
+    border-color: #FFF transparent transparent transparent;
+    bottom: 4px; }
+  .audio-component-player .audio-controller {
+    float: left;
+    border-right: 1px solid #c5c5c5;
+    width: 45px;
+    text-align: center; }
+    .audio-component-player .audio-controller .audio-play-button {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: url("../../../lesson/assests/icons/play_sprite.png") no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%;
+      background-position: 50% 0%;
+      cursor: pointer;
+      float: left; }
+      .audio-component-player .audio-controller .audio-play-button:hover {
+        background-position: 0% 0%; }
+      .audio-component-player .audio-controller .audio-play-button.playing {
+        background: url("../../../lesson/assests/icons/pause_sprite.png") no-repeat transparent;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+        background-position: 50% 0%; }
+        .audio-component-player .audio-controller .audio-play-button.playing:hover {
+          background-position: 0% 0%; }
+  .audio-component-player .audio-player {
+    float: left; }
+    .audio-component-player .audio-player .process-time, .audio-component-player .audio-player .total-time {
+      float: left;
+      width: 60px;
+      height: 30px;
+      line-height: 30px;
+      padding-left: 15px; }
+    .audio-component-player .audio-player .song-slider {
+      float: left;
+      width: 400px;
+      height: 30px; }
+      .audio-component-player .audio-player .song-slider .line-song {
+        width: 100%;
+        height: 100%;
+        position: relative; }
+        .audio-component-player .audio-player .song-slider .line-song:before {
+          width: 100%;
+          position: absolute;
+          background: #c5c5c5;
+          height: 4px;
+          content: "";
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
+      .audio-component-player .audio-player .song-slider .track-progress {
+        position: absolute;
+        top: 50%;
+        cursor: pointer;
+        width: 12px;
+        height: 12px;
+        border: 5px solid transparent;
+        background: #999;
+        border-radius: 100%;
+        transform: translate(-50%, -50%);
+        opacity: 1; }
+        .audio-component-player .audio-player .song-slider .track-progress :hover {
+          opacity: 0.6; }
+
+input.fill-in-blank-field {
+  padding: 3px 5px;
+  font-size: inherit; }
+
+[componentType="Matching_Component"] {
+  border: 10px solid #ccc;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  padding: 20px 30px; }
+  [componentType="Matching_Component"] [idx="sourceItems"],
+  [componentType="Matching_Component"] [idx="targetItems"] {
+    width: 40%; }
+    [componentType="Matching_Component"] [idx="sourceItems"] [idx],
+    [componentType="Matching_Component"] [idx="targetItems"] [idx] {
+      padding: 10px 15px;
+      display: block;
+      box-sizing: content-box;
+      padding-left: 50px;
+      position: relative;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background: white;
+      border-radius: 6px;
+      cursor: pointer; }
+      [componentType="Matching_Component"] [idx="sourceItems"] [idx]:before,
+      [componentType="Matching_Component"] [idx="targetItems"] [idx]:before {
+        content: attr(idx);
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -50%);
+        width: 50px;
+        text-align: center;
+        font-weight: bold; }
+  [componentType="Matching_Component"] [idx="sourceItems"] {
+    float: left; }
+    [componentType="Matching_Component"] [idx="sourceItems"] [idx] {
+      border: 2px dashed #ccc; }
+  [componentType="Matching_Component"] [idx="targetItems"] {
+    float: right; }
+    [componentType="Matching_Component"] [idx="targetItems"] [idx] {
+      border: 2px solid #ccc; }
+  [componentType="Matching_Component"] .ui-draggable.ui-draggable-disabled {
+    border-style: solid; }
+  [componentType="Matching_Component"] .ui-droppable.ui-droppable-disabled {
+    border-style: solid; }
+
+[componentType="Choosing_n_Drag"][componentId] .work-box-display,
+[componentType="Choosing_n_Write"][componentId] .work-box-display {
+  border: 2px dashed #cccccc;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 80%;
+  min-height: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px; }
+[componentType="Choosing_n_Drag"][componentId] .draggable,
+[componentType="Choosing_n_Write"][componentId] .draggable {
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: 'HelveticaNeue-Bold'; }
+[componentType="Choosing_n_Drag"][componentId] .droppable,
+[componentType="Choosing_n_Write"][componentId] .droppable {
+  padding: 5px 10px;
+  border: 2px dashed #999999;
+  display: inline-block;
+  min-width: 100px;
+  min-height: 30px;
+  border-radius: 10px; }
+
+[componentType="Choosing_n_Write"][componentId] .choosing-n-write-sentence {
+  line-height: 35px;
+  margin-top: 12px;
+  position: relative;
+  float: left;
+  width: 100%; }
+
+/*# sourceMappingURL=global.css.map */

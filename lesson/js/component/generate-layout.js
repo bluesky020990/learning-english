@@ -1,4 +1,5 @@
 function generateLayout() {
+    validateBrClass();
 
     // create two tab: Lesson and Practice.
     generateResourceTab();
@@ -55,6 +56,26 @@ function generateLayout() {
                 });
             });
         }
+    }
+
+    function validateBrClass(){
+        $('.lesson-content').find('br').each(function(){
+            if($(this).closest('.question_description') == null || $(this).closest('.question_description').length == 0){
+                if(this.previousSibling != null && this.previousSibling.nodeValue != null && (this.previousSibling.nodeValue.length == 1 || this.previousSibling.nodeValue.trim() == "")){
+                    if(this.previousSibling.previousSibling != null && this.previousSibling.previousSibling.nodeName != null && this.previousSibling.previousSibling.nodeName == "BR"){
+                        $(this).addClass("break-new-line");
+                    }
+                }
+            }
+        });
+
+        $('.question-content').find('br').each(function(){
+            if(this.previousSibling != null && this.previousSibling.nodeValue != null && (this.previousSibling.nodeValue.length == 1 || this.previousSibling.nodeValue.trim() == "")){
+                if(this.previousSibling.previousSibling != null && this.previousSibling.previousSibling.nodeName != null && this.previousSibling.previousSibling.nodeName == "BR"){
+                    $(this).addClass("break-new-line");
+                }
+            }
+        });
     }
 }
 

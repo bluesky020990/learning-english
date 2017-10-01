@@ -4,9 +4,10 @@
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
+  background: white;
 }
 
 #program-series-tab{
@@ -49,6 +50,12 @@ footer {
     }
   }
 
+  &.active{
+    .program-series-title{
+      color: #3071a9;
+    }
+  }
+
   .program-series-title {
     font-weight: bold;
     margin-top: 5px;
@@ -70,6 +77,10 @@ footer {
   &.active{
     display: block;
   }
+}
+
+#content-unit-container{
+  width: 1030px;
 }
 
 

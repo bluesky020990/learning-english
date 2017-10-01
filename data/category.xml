@@ -175,7 +175,11 @@
                         <unitName>Pizza for dinner</unitName>
                         <xmlSource>../data/pronunciation_in_use/elementary/unit_2/data.xml</xmlSource>
                     </unit>
-
+                    <unit>
+                        <unitCode>unit_4</unitCode>
+                        <unitName>Father and mother /ɑ/ and /ʌ/</unitName>
+                        <xmlSource>../data/pronunciation_in_use/elementary/unit_4/data.xml</xmlSource>
+                    </unit>
                 </listUnits>
             </product>
 

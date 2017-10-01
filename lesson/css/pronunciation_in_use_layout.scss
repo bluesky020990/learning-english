@@ -31,6 +31,32 @@ $programColor : #E6555F;
       padding: 10px 20px;
       background: #f5f5f5;
       border-radius: 6px;
+
+      float: left;
+      width: 100%;
+      box-sizing: border-box;
+
+
+      &.important-for-listening{
+        padding: 0px;
+        background: lightgoldenrodyellow;
+
+        .important-content{
+          padding: 10px 20px;
+          position: relative;
+        }
+      }
+    }
+
+    .content-note{
+      position: relative;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #c5c5c5;
+      border-radius: 6px;
+      float: left;
+      width: 100%;
+      box-sizing: border-box;
     }
   }
 
@@ -47,6 +73,19 @@ $programColor : #E6555F;
 
     &:after{
       border-color: #FFF transparent transparent transparent;
+    }
+  }
+
+  b{
+   color: $programColor;
+  }
+
+  .question-group{
+    padding-left: 100px;
+
+    .audio-component{
+      left: 90px;
+      top: 10px;
     }
   }
 }

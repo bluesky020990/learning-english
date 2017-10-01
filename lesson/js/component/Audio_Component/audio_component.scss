@@ -1,0 +1,140 @@
+.audio-component {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  width: 42px;
+  height: 42px;
+  transform: translate(-100%, 0%);
+  background: url("../../../lesson/assests/icons/audio_sprite.png") no-repeat transparent;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
+  background-position: 0% 0%;
+  cursor: pointer;
+}
+
+.audio-component-player{
+  height: auto;
+  position: absolute;
+  background: white;
+  border: 2px solid #F58220;
+  box-shadow: 3px 3px 4px #ccc;;
+  padding: 20px;
+  border-radius: 10px;
+  transform: translate(0%, -100%);
+  margin-top: -10px;
+  margin-left: -40px;
+
+  &:before, &:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 10px 0 10px;
+    border-color: #F58220 transparent transparent transparent;
+    position: absolute;
+    left: 35px; /*20 + 15*/
+    transform: translate(-50%, 100%);
+  }
+
+  &:before{
+    bottom: 0px;
+    border-color: #F58220 transparent transparent transparent;
+  }
+
+  &:after{
+    border-color: #FFF transparent transparent transparent;
+    bottom: 4px;
+  }
+
+  .audio-controller {
+    float: left;
+    border-right: 1px solid #c5c5c5;
+    width: 45px;
+    text-align: center;
+
+    .audio-play-button {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: url("../../../lesson/assests/icons/play_sprite.png") no-repeat transparent;
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      background-size: auto 100%;
+      background-position: 50% 0%;
+      cursor: pointer;
+      float: left;
+
+      &:hover{
+        background-position: 0% 0%;
+      }
+
+      &.playing{
+        background: url("../../../lesson/assests/icons/pause_sprite.png") no-repeat transparent;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+        background-position: 50% 0%;
+
+        &:hover{
+          background-position: 0% 0%;
+        }
+      }
+    }
+  }
+
+  .audio-player{
+    float: left;
+
+    .process-time, .total-time{
+      float: left;
+      width: 60px;
+      height: 30px;
+      line-height: 30px;
+      padding-left: 15px;
+    }
+
+    .song-slider{
+      float: left;
+      width: 400px;
+      height: 30px;
+
+      .line-song {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        &:before {
+          width: 100%;
+          position: absolute;
+          background: #c5c5c5;
+          height: 4px;
+          content: "";
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+
+      .track-progress {
+        position: absolute;
+        top: 50%;
+        cursor: pointer;
+
+        width: 12px;
+        height: 12px;
+        border: 5px solid transparent;
+        background: #999;
+        border-radius: 100%;
+        transform: translate(-50%, -50%);
+        opacity: 1;
+
+        :hover{
+          opacity: 0.6;
+        }
+      }
+
+    }
+  }
+}

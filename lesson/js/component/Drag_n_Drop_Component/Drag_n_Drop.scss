@@ -1,0 +1,44 @@
+%dragNDropStyle{
+  .work-box-display{
+    border: 2px dashed #cccccc;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 80%;
+    min-height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .draggable{
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: 'HelveticaNeue-Bold';
+  }
+
+  .droppable{
+    padding: 5px 10px;
+    border: 2px dashed #999999;
+    display: inline-block;
+    min-width: 100px;
+    min-height: 30px;
+    border-radius: 10px;
+  }
+}
+
+[componentType="Choosing_n_Drag"][componentId],
+[componentType="Choosing_n_Write"][componentId]{
+  @extend %dragNDropStyle;
+}
+
+
+
+[componentType="Choosing_n_Write"][componentId] {
+  .choosing-n-write-sentence {
+    line-height: 35px;
+    margin-top: 12px;
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+}

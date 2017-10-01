@@ -2,24 +2,15 @@
 <unit>
     <code>unit_2</code>
     <title>Unit 2</title>
-    <description>
-        <![CDATA[
-            Pizza for dinner  /i:/ and /i/
-        ]]>
-    </description>
-
-    <titleDisplay>
-        <![CDATA[
-            Pizza for dinner <br /> /i:/ and /i/
-        ]]>
-    </titleDisplay>
+    <description><![CDATA[Pizza for dinner  /i:/ and /i/]]></description>
+    <titleDisplay><![CDATA[Pizza for dinner <br /> /i:/ and /i/]]></titleDisplay>
 
     <lessonGroup>
         <lessonContent>
             <![CDATA[
                 <h3 class="header">How to make the sound /i:/</h3>
                 <div class="content">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 09.mp3" starTime="-1" endTime="10"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 09.mp3" starTime="0" endTime="10"></span>
                     /i:/ is a long sound. Look at the diagram. Listen and then say the sound. Make
                     your mouth wide, like a smile. Your tongue touches the sides of your teeth. Target
                     sound: /i:/
@@ -86,7 +77,7 @@
             <![CDATA[
                 <h3 class="header">How to make the sound /i/</h3>
                 <div class="content">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="0" endTime="0"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="0" endTime="10"></span>
                     /i/ is a short sound. Look at the diagram. Listen and then say the sound.
                     Make your mouth a bit less wide than for /i:/. Your tongue is a but further back
                     in your mouth than for /i:/. Target sound: /i/.
@@ -98,21 +89,21 @@
                 <h3 class="header">Sound and spelling</h3>
 
                 <div class="content">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="0" endTime="0"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="10" endTime="28"></span>
                     /i/ is usually spelled i. Listen and say these words.<br />
                     <br />
                     <div class="content-wide-space">if listen miss dinner swim</div>
                 </div>
 
                 <div class="content">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="0" endTime="0"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="28" endTime="45"></span>
                     Listen and say these other words with /i/.<br />
                     <br />
                     <div class="content-wide-space">busy business building system</div>
                 </div>
 
                 <div class="content">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3"  starTime="0" endTime="0"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3"  starTime="45" endTime="1:11"></span>
                     Now listen and say these phrases.<br />
                     <br />
                     <div class="content-wrapper">
@@ -125,7 +116,7 @@
                 </div>
 
                 <div class="content danger">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3"  starTime="0" endTime="0"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3"  starTime="60" endTime="0"></span>
                     Note: Units 2 to 10 focus on vowel sounds in stressed syllables (see Section B Syllables and words).<i/>
                     Vowel sounds in unstressed syllables often have the weak vowel /ə/. Listen and repeat.<br />
                     <br />
@@ -135,7 +126,7 @@
                 </div>
 
                  <div class="content">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="0" endTime="0"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="1:35" endTime="2:13"></span>
                     Note: Units 2 to 10 focus on vowel sounds in stressed syllables (see Section B Syllables and words).<i/>
                     Vowel sounds in unstressed syllables often have the weak vowel /ə/. Listen and repeat.<br />
                     <br />

@@ -131,7 +131,7 @@ function MatchingComponent() {
 
         var color = getColorByIndex(parseInt($(sourceItem).attr("objectIndex")));
 
-        var matchingLine = paper.path("M " + offset_source.cx + "," + offset_source.cy  + " L " + offset_target.cx + ","  + offset_target.cy);
+        var matchingLine = paper.path(getMathchingLineBetweenTwoPoint(offset_source.cx, offset_source.cy, offset_target.cx, offset_target.cy));
         matchingLine.attr({
             'stroke' : color,
             'stroke-width': 2
@@ -175,6 +175,16 @@ function MatchingComponent() {
 
         $(targetItem).attr("borderColor", $(sourceItem).attr("borderColor"));
         $(sourceItem).attr("target", $(targetItem).attr('idx'));
+
+        function getMathchingLineBetweenTwoPoint(cx_1, cy_1, cx_2, cy_2){
+            var line_padding = 20;
+
+            if(cx_1 < cx_2){
+                return "M" + cx_1 + "," + cy_1 + "L" + (cx_1 + line_padding) + "," + cy_1 +  "L" + (cx_2 - line_padding) + "," + cy_2 + "L" + cx_2 + "," + cy_2;
+            } else {
+                return "M" + cx_2 + "," + cy_2 + "L" + (cx_2 + line_padding) + "," + cy_2 +  "L" + (cx_1 - line_padding) +  "," + cy_1 + "L" + cx_1 + "," + cy_1;
+            }
+        }
     };
 
     Raphael.st.matching_removeConnectLine = function(){

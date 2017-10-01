@@ -27,57 +27,57 @@
 
 [objectColor="red"],
 [objectColor="Red"] {
-    background-color: #ED1F24;
+    background-color: #ED1F24 !important;
 }
 
 [objectColor="orange"] {
-    background-color: #F58220;
+    background-color: #F58220 !important;
 }
 
 [objectColor="yellow"],
 [objectColor="yellow"] {
-    background-color: #FFCB05;
+    background-color: #FFCB05 !important;
 }
 
 [objectColor="lightgreen"] {
-    background-color: #99FF00;
+    background-color: #99FF00 !important;
 }
 
 [objectColor="green"] {
-    background-color: #00A14B;
+    background-color: #00A14B !important;
 }
 
 [objectColor="darkgreen"] {
-    background-color: #00AAAC;
+    background-color: #00AAAC !important;
 }
 
 [objectColor="aqua"] {
-    background-color: #00B4EB;
+    background-color: #00B4EB !important;
 }
 
 [objectColor="blue"],
 [objectColor="Blue"] {
-    background-color: #0474BB;
+    background-color: #0474BB !important;
 }
 
 [objectColor="darkgreen"] {
-    background-color: #00AAAC;
+    background-color: #00AAAC !important;
 }
 
 [objectColor="purple"] {
-    background-color: #7956A4;
+    background-color: #7956A4 !important;
 }
 
 [objectColor="pink"] {
-    background-color: #FF00CC;
+    background-color: #FF00CC !important;
 }
 
 [objectColor="grey"] {
-    background-color: #999999;
+    background-color: #999999 !important;
 }
 
 [objectColor="dark"] {
-    background-color: #666666;
+    background-color: #666666 !important;
 }
 
 
@@ -86,55 +86,55 @@
 
 [borderColor="red"],
 [borderColor="Red"] {
-    border-color: #ED1F24;
+    border-color: #ED1F24 !important;
 }
 
 [borderColor="orange"] {
-    border-color: #F58220;
+    border-color: #F58220 !important;
 }
 
 [borderColor="yellow"],
 [borderColor="yellow"] {
-    border-color: #FFCB05;
+    border-color: #FFCB05 !important;
 }
 
 [borderColor="lightgreen"] {
-    border-color: #99FF00;
+    border-color: #99FF00 !important;
 }
 
 [borderColor="green"] {
-    border-color: #00A14B;
+    border-color: #00A14B !important;
 }
 
 [borderColor="darkgreen"] {
-    border-color: #00AAAC;
+    border-color: #00AAAC !important;
 }
 
 [borderColor="aqua"] {
-    border-color: #00B4EB;
+    border-color: #00B4EB !important;
 }
 
 [borderColor="blue"],
 [borderColor="Blue"] {
-    border-color: #0474BB;
+    border-color: #0474BB !important;
 }
 
 [borderColor="darkgreen"] {
-    border-color: #00AAAC;
+    border-color: #00AAAC !important;
 }
 
 [borderColor="purple"] {
-    border-color: #7956A4;
+    border-color: #7956A4 !important;
 }
 
 [borderColor="pink"] {
-    border-color: #FF00CC;
+    border-color: #FF00CC !important;
 }
 
 [borderColor="grey"] {
-    border-color: #999999;
+    border-color: #999999 !important;
 }
 
 [borderColor="dark"] {
-    border-color: #666666;
+    border-color: #666666 !important;
 }

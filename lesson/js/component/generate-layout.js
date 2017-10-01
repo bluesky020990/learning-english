@@ -1,5 +1,5 @@
 function generateLayout() {
-    console.dir("generateLayout ............................");
+
     // create two tab: Lesson and Practice.
     generateResourceTab();
 
@@ -8,7 +8,6 @@ function generateLayout() {
 
     stretchOutDocument();
 
-    console.dir("stretchOutDocument ............................" + $('body').height());
 
     function generateResourceTab() {
         var $controlTabHTML = $('<div class="lesson-controller-tab">' +
@@ -32,6 +31,10 @@ function generateLayout() {
             if ($currentActiveTab.length > 0) {
                 $('#' + $currentActiveTab.attr("target")).removeClass("active");
                 $currentActiveTab.removeClass("active");
+
+
+                console.dir("stop all action in current page!");
+                audioComponent.audio_stopped();
             }
 
             $(tab).addClass("active");

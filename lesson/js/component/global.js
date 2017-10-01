@@ -1,5 +1,5 @@
 var FILL_IN_BLANK_TYPE = "Fill_in_Blank";
-var MATCHING_TYPE = "Matching-Component";
+var MATCHING_TYPE = "Matching_Component";
 
 
 var COLOR_ARRAY       = ['red',     'orange',  'yellow',  'darkgreen', 'aqua',    'blue',    'purple',  'pink',    'grey',    'dark'];

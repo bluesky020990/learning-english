@@ -119,7 +119,7 @@
             </direction>
             <content>
                 <![CDATA[
-                    <span componentType="Matching-Component" componentId="1_1">
+                    <span componentType="Matching_Component" componentId="1_1">
                         <span idx="sourceItems">
                             <span idx="1">Please don't make so much noise.</span>
                             <span idx="2">I need to eat something soon.</span>
@@ -144,7 +144,9 @@
                     </span>
                 ]]>
             </content>
-            <answer></answer>
+            <components>
+                <component type="Matching_Component" idx="1_1"><![CDATA[1:f; 2: e; 3: g; 4: a; 5: d; 6: h; 7: b; 8: c]]></component>
+            </components>
         </questionItem>
 
         <questionItem>
@@ -154,50 +156,69 @@
                 <![CDATA[
                     <div class="question-conversation">
                         A: I saw Brian a few days ago.<br/>
-                        B: Oh, did you? . <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(what I he I do)"></span> these days?<br/>
+                        B: Oh, did you? . <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(what / he / do)"></span> these days?<br/>
                         A: He's at university.<br/>
-                        B: <span componentType="Fill_in_Blank" componentId="1_2_2" hint="(what I he I study)"></span> ? <br/>
+                        B: <span componentType="Fill_in_Blank" componentId="1_2_2" hint="(what / he / study)"></span> ? <br/>
                         A: Psychology.<br/>
-                        B: <span componentType="Fill_in_Blank" componentId="1_2_3" hint="(he I enjoy)"></span> it? <br/>
+                        B: <span componentType="Fill_in_Blank" componentId="1_2_3" hint="(he / enjoy)"></span> it? <br/>
                         A: Yes, he says it's a very good course.<br/>
                     </div>
 
                     <div class="question-conversation">
-                        A: Hi, Nicola. How <span componentType="Fill_in_Blank" componentId="1_2_4" hint="(your new job I go)"></span> ?<br/>
-                        B: Not bad. lt wasn't so good at first, but <span componentType="Fill_in_Blank" componentId="1_2_4" hint="(it / get)"></span> better now. <br/>
+                        A: Hi, Nicola. How <span componentType="Fill_in_Blank" componentId="1_2_4" hint="(your new job / go)"></span> ?<br/>
+                        B: Not bad. lt wasn't so good at first, but <span componentType="Fill_in_Blank" componentId="1_2_5" hint="(it / get)"></span> better now. <br/>
                         A: What about Daniel? Is he OK?<br/>
-                        B: Yes, but <span componentType="Fill_in_Blank" componentId="1_2_4" hint="(he / not / enjoy)"></span> his work right now. <br/>
-                        He's been in the same job for a long time and <span componentType="Fill_in_Blank" componentId="1_2_4" hint="(he / begin)"></span> to get bored
+                        B: Yes, but <span componentType="Fill_in_Blank" componentId="1_2_6" hint="(he / not / enjoy)"></span> his work right now. <br/>
+                        He's been in the same job for a long time and <span componentType="Fill_in_Blank" componentId="1_2_7" hint="(he / begin)"></span> to get bored
                         with it.
                     </div>
                 ]]>
             </content>
-            <answer></answer>
+            <components>
+                <component type="Fill_in_Blank" idx="1_2_1"><![CDATA[What's he doing {or} What is he doing]]></component>
+                <component type="Fill_in_Blank" idx="1_2_2"><![CDATA[What's he studying {or} What is he studying]]></component>
+                <component type="Fill_in_Blank" idx="1_2_3"><![CDATA[Is he enjoying]]></component>
+                <component type="Fill_in_Blank" idx="1_2_4"><![CDATA['s {or} is your new job going ]]></component>
+                <component type="Fill_in_Blank" idx="1_2_5"><![CDATA[it's getting {or} it is getting]]></component>
+                <component type="Fill_in_Blank" idx="1_2_6"><![CDATA[he isn't enjoying {or} he's not enjoying]]></component>
+                <component type="Fill_in_Blank" idx="1_2_7"><![CDATA[he's beginning {or} he is beginning ]]></component>
+            </components>
         </questionItem>
 
         <questionItem>
             <number>1</number>
             <direction>
                 <![CDATA[ Put the verb into the correct form, positive (I'm doing etc.) or negative (I'm not doing etc.). ]]>
-
             </direction>
+
             <content>
                 <![CDATA[
                     <ul class="question-items">
-                        <li>Please don't make so much noise. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(I I try)"></span>. to work.</li>
-                        <li>Let's go out now. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(it I rain)"></span>  any more.</li>
-                        <li>You can turn off t he radio. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(I I listen)"></span>  to it.</li>
-                        <li>Kate phoned me last night. She's on holiday in France. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(she I have)"></span> great time and doesn't want to come back.</li>
-                        <li>I want to lose weight, so this week <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(I I eat)"></span>  lunch.</li>
-                        <li>Andrew has just started evening classes. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(he I learn)"></span>  Japanese.</li>
-                        <li>Paul and Sally have had an argument. <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(they I speak)"></span>  to each other.</li>
-                        <li><span componentType="Fill_in_Blank" componentId="1_2_1" hint="(I get)"></span>  tired. I need a rest.</li>
-                        <li>Tim <span componentType="Fill_in_Blank" componentId="1_2_1" hint="(work)"></span> today. He's taken the day off.</li>
-                        <li><span componentType="Fill_in_Blank" componentId="1_2_1" hint="(I I look)"></span> (I I look) for Sophie. Do you know where she is?</li>
+                        <li>Please don't make so much noise. <span componentType="Fill_in_Blank" componentId="1_3_1" hint="(I / try)"></span>. to work.</li>
+                        <li>Let's go out now. <span componentType="Fill_in_Blank" componentId="1_3_2" hint="(it / rain)"></span>  any more.</li>
+                        <li>You can turn off t he radio. <span componentType="Fill_in_Blank" componentId="1_3_3" hint="(I / listen)"></span>  to it.</li>
+                        <li>Kate phoned me last night. She's on holiday in France. <span componentType="Fill_in_Blank" componentId="1_3_4" hint="(she / have)"></span> great time and doesn't want to come back.</li>
+                        <li>I want to lose weight, so this week <span componentType="Fill_in_Blank" componentId="1_3_5" hint="(I / eat)"></span>  lunch.</li>
+                        <li>Andrew has just started evening classes. <span componentType="Fill_in_Blank" componentId="1_3_6" hint="(he / learn)"></span>  Japanese.</li>
+                        <li>Paul and Sally have had an argument. <span componentType="Fill_in_Blank" componentId="1_3_7" hint="(they / speak)"></span>  to each other.</li>
+                        <li><span componentType="Fill_in_Blank" componentId="1_3_8" hint="(I / get)"></span>  tired. I need a rest.</li>
+                        <li>Tim <span componentType="Fill_in_Blank" componentId="1_3_9" hint="(work)"></span> today. He's taken the day off.</li>
+                        <li><span componentType="Fill_in_Blank" componentId="1_3_10" hint="(I / look)"></span> for Sophie. Do you know where she is?</li>
                     </ul>
                 ]]>
             </content>
-            <answer></answer>
+            <components>
+                <component type="Fill_in_Blank" idx="1_3_1"><![CDATA[I'm trying {or} I am trying]]></component>
+                <component type="Fill_in_Blank" idx="1_3_2"><![CDATA[I'm trying {or} I am trying]]></component>
+                <component type="Fill_in_Blank" idx="1_3_3"><![CDATA[I'm not listening {or} I am not listening]]></component>
+                <component type="Fill_in_Blank" idx="1_3_4"><![CDATA[she's having {or} she is having]]></component>
+                <component type="Fill_in_Blank" idx="1_3_5"><![CDATA[I'm not eating {or} I am not eating]]></component>
+                <component type="Fill_in_Blank" idx="1_3_6"><![CDATA[He's learning {or} He is learning]]></component>
+                <component type="Fill_in_Blank" idx="1_3_7"><![CDATA[They're speaking {or} They are speaking ]]></component>
+                <component type="Fill_in_Blank" idx="1_3_8"><![CDATA[I'm getting {or} I am getting]]></component>
+                <component type="Fill_in_Blank" idx="1_3_9"><![CDATA[isn't working {or} is not working]]></component>
+                <component type="Fill_in_Blank" idx="1_3_10"><![CDATA[I'm looking {or} I am looking]]></component>
+            </components>
         </questionItem>
 
         <questionItem>
@@ -209,7 +230,7 @@
             </direction>
             <content>
                 <![CDATA[
-                    <div class="word-box-component">
+                    <div class="word-box-component" componentType="Choosing_n_Drag">
                         <div class="work-box-display">
                             <span class="draggable">start</span>
                             <span class="draggable">get</span>
@@ -219,16 +240,23 @@
                         </div>
 
                         <ul class="question-items">
-                            <li>The population of the world ~s i,ncr.~mg very fast.</li>
-                            <li>The world ......... . ................................................. . Things never stay the same.</li>
-                            <li>The situation is already bad and it .. .. .... ..... . ......................... .... worse.</li>
-                            <li>The cost of living ..... ........... ............... . Every year things are more expensive.</li>
-                            <li>The weather .. . ..... to improve. The rain has stopped, and the wind isn't as strong.</li>
+                            <li>The population of the world <span class="choosing-right-word"idx="1"></span> very fast.</li>
+                            <li>The world <span class="choosing-right-word"idx="2"></span>. Things never stay the same.</li>
+                            <li>The situation is already bad and it <span class="choosing-right-word"idx="3"></span> worse.</li>
+                            <li>The cost of living <span class="choosing-right-word"idx="4"></span>. Every year things are more expensive.</li>
+                            <li>The weather <span class="choosing-right-word"idx="5"></span> to improve. The rain has stopped, and the wind isn't as strong.</li>
                         </ul>
                     </div>
                 ]]>
             </content>
-            <answer></answer>
+
+            <components>
+                <component type="Choosing_n_Drag" idx="1_4"><![CDATA[
+                    1 :: is increasing {and} 2 :: is changing {and} 3 :: is getting {and} 4 ::is rising {and} 5 :: is starting
+                    ]]>
+                </component>
+
+            </components>
         </questionItem>
     </questionGroup>
     <relativeUnits>

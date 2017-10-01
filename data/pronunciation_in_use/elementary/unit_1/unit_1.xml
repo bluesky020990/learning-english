@@ -1,116 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <unit>
-    <code>unit_1</code>
-    <title>Unit 1</title>
+    <code>unit_2</code>
+    <title>Unit 2</title>
     <description>
-        <![CDATA[Present continuous (<b>I am doing</b>)]]>
+        <![CDATA[
+            Pizza for dinner<br />
+            /i:/ and /i/
+        ]]>
     </description>
 
     <lessonGroup>
         <lessonContent>
             <![CDATA[
-                <i>Study this example situation:</i><br />
-
-                <div style="width: 100%">
-                    <div style="width: 50%; float: left">
-                        Sarah is in her car. She is on her way to work.<br/>
-                        She is driving to work.<br/>
-                        This means: she is driving now, at the time of speaking.<br/>
-                        The action is not finished.<br/>
-                        <br/>
-                    </div>
-
-                    <div style="width: 49%; float: right; min-height: 60px; border: 1px solid red">
-
-                    </div>
+                <h3 class="header">How to make the sound /i:/</h3>
+                <div class="content">
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_1/Track_01.mp3"></span>
+                    /i:/ is a long sound. Look at the diagram. Listen and then say the sound. Make
+                    your mouth wide, like a smile. Your tongue touches the sides of your teeth. Target
+                    sound: /i:/
                 </div>
-                <br class="clear-both"/>
-
-                <p>Am/is/are+ -ing is the present continuous:</p>
-
-                <table class="table-border-around" cellpadding="0" cellspacing="0" border="0" >
-                    <tr>
-                        <td style="text-align: right">I am (=I'm)</td>
-                        <td>driving</td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: right">he/she/it is (=he's etc.)</td>
-                        <td>working</td>
-
-                    </tr>
-                    <tr>
-                        <td style="text-align: right">we/you/they are (=we're etc.)</td>
-                        <td>doing etc</td>
-                    </tr>
-                </table>
             ]]>
         </lessonContent>
         <lessonContent>
             <![CDATA[
-                I am doing something = I'm in the middle of doing it; I've started doing it and I haven't finished:
-                <ul class="check-list-items">
-                    <li>Please don't make so much noise. I'm trying t o work. (not I try)</li>
-                    <li>'Where's Mark?' 'He's having a shower.' (not He has a shower)</li>
-                    <li>Let's go out now. lt isn't raining any more. (not lt doesn't rain)</li>
-                    <li>(at a party) Hi, jane. Are you enjoying the party? (not Do you enjoy)</li>
-                </ul>
-
-                <p>Sometimes the action is not happening at the time of speaking. For example:</p>
-
-                <div class="example-content">
-                    Steve is talking to a friend on the phone. He says:<br/>
-
-                    Steve is not reading the book at the time of speaking.<br/>
-                    He means that he has started it, but has not finished it yet.<br/>
-                    He is in the middle of reading it<br/>
+               <h3 class="header">Sound and spelling</h3>
+                <div class="content">
+                    <span class="audio-component" audioSource="unit-1/a9b.mp3"></span>
+                    /i:/ is usually spelled ee or ea. Listen and say these words.<br />
+                    <br />
+                    see agree eat seat team
                 </div>
 
-                <p>Some more examples:</p>
+                <div class="content">
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_1/Track_01.mp3"></span>
+                    Listen and say these other words with /i:/.
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td>ie</td>
+                            <td>field piece</td>
+                        </tr>
+                        <tr>
+                            <td>e</td>
+                            <td>these metre secret evening equal Peter museum European Chinese Japanese complete</td>
+                        </tr>
+                        <tr>
+                            <td>ey</td>
+                            <td>key</td>
+                        </tr>
+                        <tr>
+                            <td>i</td>
+                            <td>ski kilo litre pizza police machine magazine</td>
+                        </tr>
+                        <tr>
+                            <td>eo</td>
+                            <td>people</td>
+                        </tr>
+                    </table>
+                </div>
 
-                <ul class="check-list-items">
-                    <li>Kate wants to work in Italy, so she's Learning Italian. (but perhaps she isn't learning Italian
-                        at the time of speaking)</li>
-                    <li>Some friends of mine are building their own house. They hope to finish it next summer</li>
-                </ul>
+                 <div class="content">
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_1/Track_01.mp3"></span>
+                    Now, listen and say these sentences. You will need to pause the recording
+                    to give yourself enough time to repeat.<br />
+                    <br />
+                    1. Can you see the sea?<br />
+                    2. A piece of pizza, please.<br />
+                    3. Peter's in the team.<br />
+                    4. A kilo of peaches and a litre of cream.<br />
+                    5. Please can you teach me to speak Portuguese?
+                </div>
+            ]]>
+        </lessonContent>
+
+        <lessonContent>
+            <![CDATA[
+                <h3 class="header">How to make the sound /i/</h3>
+                <div class="content">
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_1/Track_01.mp3"></span>
+                    /i/ is a short sound. Look at the diagram. Listen and then say the sound.
+                    Make your mouth a bit less wide than for /i:/. Your tongue is a but further back
+                    in your mouth than for /i:/. Target sound: /i/.
+                </div>
             ]]>
         </lessonContent>
         <lessonContent>
             <![CDATA[
-                You can use the present continuous with today I this week I this year et c. (periods around now):
+                <h3 class="header">Sound and spelling</h3>
+                <div class="content">
+                    <span class="audio-component" audioSource="unit-1/a9a.mp3"></span>
 
-                <ul class="check-list-items">
-                    <li>A: You're working hard today. (not You work hard today)<br />
-                        Yes, I have a lot to do.
-                    </li>
-                    <li>The company I work for isn't doing so well this year.</li>
-                </ul>
-            ]]>
-        </lessonContent>
-        <lessonContent>
-            <![CDATA[
-                We use the present continuous when we talk about changes happening around now, especially
-                with these verbs:
-
-                <div class="word-box">
-                    <span class="term">get</span>
-                    <span class="term">change</span>
-                    <span class="term">become</span>
-                    <span class="term">increase</span>
-                    <span class="term">rise</span>
-                    <span class="term">fall</span>
-                    <span class="term">grow</span>
-                    <span class="term">improve</span>
                 </div>
-
-                <ul class="check-list-items">
-                    <li><b>Is</b> your English <b>getting</b> better? (not Does your English get better)</li>
-                    <li>The population of the world <b>is increasing</b> very fast. (not increases)</li>
-                    <li>At first I didn't like my job, but I'<b>m beginning</b> to enj oy it now. (not I begin}
-                        begin star</li>
-                </ul>
             ]]>
         </lessonContent>
     </lessonGroup>
+
     <questionGroup>
         <questionItem>
             <number>1</number>

@@ -135,14 +135,14 @@ function ProductObject() {
         htmlDisplayArray.push(        '<h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#program-series-list-items-display" href="#product-item-' + this.productCode + '" aria-expanded="false" aria-controls="collapseTwo">' + this.productName + '</a></h4>');
         htmlDisplayArray.push(    '</div>');
         htmlDisplayArray.push(    '<div id="product-item-' + this.productCode + '" class="panel-collapse collapse">');
-        htmlDisplayArray.push(        '<div class="panel-body">');
+        // htmlDisplayArray.push(        '<div class="panel-body">');
         htmlDisplayArray.push(            '<ul class="list-group">');
         for (var i = 0; i < this.units.length; i++) {
             var unitObj = this.units[i];
             htmlDisplayArray.push(unitObj.generateListUnitDisplay());
         }
         htmlDisplayArray.push(            '</ul>');
-        htmlDisplayArray.push(        '</div>');
+        // htmlDisplayArray.push(        '</div>');
         htmlDisplayArray.push(    '</div>');
         htmlDisplayArray.push('</div>');
         return htmlDisplayArray.join("");
@@ -236,6 +236,10 @@ function loadResource(targetUrl) {
     $('<iframe id="unitContentViewer" src="lesson/unit-content.html" style="width: 100%; height: auto; margin-bottom: 50px; border: 1.1px solid #ccc;"/>').appendTo($('#content-unit-container'));
 }
 
+function loadProgramSeriesClass(){
+    return $('#unitItemsDisplay').find('.unit-list-item.active').closest('.program-series-list-items').attr("target");
+}
+
 function loadSampleLayout() {
     var sampleUrl = "../data/vocabulary_in_use/elementary/unit_1.xml";
     loadResource(sampleUrl);
@@ -259,6 +263,11 @@ function updateResourceTitleDisplay (resourceTitleDisplay){
     $('.resource-actions').show();
 
     $('.resource-header-title').find('h3').html(resourceTitleDisplay);
+}
+
+function getIframeDocument(iFrameId){
+    var iFrameElement = document.getElementById(iFrameId);
+    return iFrameElement.contentDocument || iFrameElement.contentWindow.document;
 }
 
 

@@ -1,0 +1,52 @@
+$programColor : #E6555F;
+
+%pronunciationLayout {
+
+  .unit-title{
+    background: $programColor;
+  }
+
+  .resource-title{
+    color: $programColor;
+  }
+
+  .lesson-item{
+    border: 2px solid $programColor;
+  }
+  .lesson-title{
+    opacity: 0;
+  }
+
+  .lesson-content{
+    .header{
+      margin-top: 0px;
+      margin-bottom: 10px;
+      color: $programColor;
+    }
+
+    .content{
+      position: relative;
+    }
+  }
+
+  .audio-component-player{
+    border: 2px solid $programColor;
+
+    &:before, &:after{
+      border-color: $programColor transparent transparent transparent;
+    }
+
+    &:before{
+      border-color: $programColor transparent transparent transparent;
+    }
+
+    &:after{
+      border-color: #FFF transparent transparent transparent;
+    }
+  }
+}
+
+
+.pronunciation_in_use{
+  @extend %pronunciationLayout;
+}

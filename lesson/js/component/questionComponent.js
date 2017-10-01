@@ -15,6 +15,8 @@ function QuestionComponent() {
     });
 
     this.initComponent = function () {
+        audioComponent.initComponent();
+
         componentArray.forEach(function (item) {
             try {
                 item.initComponent();

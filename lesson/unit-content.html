@@ -26,6 +26,8 @@
     <link   rel="stylesheet"  href="js/component/global.css"/>
     <script type="text/javascript" src="js/component/global.js"></script>
 
+    <script type="text/javascript" src="js/component/Audio_Component/audio_component.js"></script>
+
 
     <!--INCLUDE FILL IN BLANK COMPONENT -->
     <link  rel="stylesheet"  href="js/component/Fill_in_Blank_Component/fill_in_blank.css"/>
@@ -43,8 +45,8 @@
 
 
 
-
     <script type="text/javascript" src="js/component/questionComponent.js"></script>
+
 
 
     <!--for saving data-->
@@ -74,6 +76,11 @@
 </body>
 
 <script>
+    window.onload = function() {
+        var programCssClass = parent.loadProgramSeriesClass();
+        $('body').addClass(programCssClass);
+    };
+
     $(document).ready(function(){
         var currentResourceXMLDataSource =  window.parent.currentResourceXMLDataSource;
         if(currentResourceXMLDataSource != null &&  window.parent.currentResourceXMLDataSource.trim() != ""){

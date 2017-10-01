@@ -1,5 +1,5 @@
 /*
- <span componentType="Matching-Component" componentId="1_1">
+ <span componentType="Matching_Component" componentId="1_1">
      <span idx="sourceItems">
          <span idx="1">Please don't make so much noise.</span>
          <span idx="2">I need to eat something soon.</span>

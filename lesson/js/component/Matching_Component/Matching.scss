@@ -1,4 +1,4 @@
-[componentType="Matching-Component"]{
+[componentType="Matching_Component"]{
   border: 10px solid #ccc;
   width: 80%;
   margin: 0 auto;
@@ -43,8 +43,7 @@
   [idx="sourceItems"]{
     float: left;
     [idx]{
-      border-width: 2px;
-      border-style:dashed;
+      border: 2px dashed #ccc;
     }
   }
 
@@ -52,8 +51,7 @@
     float: right;
 
     [idx]{
-      border-width: 2px;
-      border-style: solid;
+      border: 2px solid #ccc;
     }
   }
 

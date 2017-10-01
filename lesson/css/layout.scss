@@ -113,6 +113,7 @@ body{
   .lesson-content {
     float: left;
     width: calc(100% - 45px);
+    box-sizing: border-box;
   }
 }
 
@@ -267,6 +268,7 @@ br.clear-both {
 .audio-component {
   display: inline-block;
   position: absolute;
+  top: 0px;
   left: -10px;
   width: 42px;
   height: 42px;
@@ -280,13 +282,16 @@ br.clear-both {
 }
 
 
+.content-wide-space{
+  word-spacing: 20px;
+}
 
 .audio-component-player{
   height: auto;
   position: absolute;
   background: white;
   border: 2px solid #F58220;
-  box-shadow: 2px 1px 0px 2px #ccc;
+  box-shadow: 3px 3px 4px #ccc;;
   padding: 20px;
   border-radius: 10px;
   transform: translate(-40px, -100%);

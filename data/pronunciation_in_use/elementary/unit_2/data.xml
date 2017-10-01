@@ -4,17 +4,22 @@
     <title>Unit 2</title>
     <description>
         <![CDATA[
-            Pizza for dinner<br />
-            /i:/ and /i/
+            Pizza for dinner  /i:/ and /i/
         ]]>
     </description>
+
+    <titleDisplay>
+        <![CDATA[
+            Pizza for dinner <br /> /i:/ and /i/
+        ]]>
+    </titleDisplay>
 
     <lessonGroup>
         <lessonContent>
             <![CDATA[
                 <h3 class="header">How to make the sound /i:/</h3>
                 <div class="content">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_1/Track_01.mp3"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 09.mp3" starTime="-1" endTime="10"></span>
                     /i:/ is a long sound. Look at the diagram. Listen and then say the sound. Make
                     your mouth wide, like a smile. Your tongue touches the sides of your teeth. Target
                     sound: /i:/
@@ -25,41 +30,46 @@
             <![CDATA[
                <h3 class="header">Sound and spelling</h3>
                 <div class="content">
-                    <span class="audio-component" audioSource="unit-1/a9b.mp3"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 09.mp3" starTime="10" endTime="27"></span>
                     /i:/ is usually spelled ee or ea. Listen and say these words.<br />
                     <br />
                     see agree eat seat team
                 </div>
 
                 <div class="content">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_1/Track_01.mp3"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 09.mp3" starTime="27" endTime="1:16"></span>
                     Listen and say these other words with /i:/.
-                    <table border="0" cellspacing="0" cellpadding="0">
+                    <table border="0" class="content-wide-space">
                         <tr>
                             <td>ie</td>
+                             <td> </td>
                             <td>field piece</td>
                         </tr>
                         <tr>
                             <td>e</td>
+                            <td> </td>
                             <td>these metre secret evening equal Peter museum European Chinese Japanese complete</td>
                         </tr>
                         <tr>
                             <td>ey</td>
+                            <td> </td>
                             <td>key</td>
                         </tr>
                         <tr>
                             <td>i</td>
+                            <td> </td>
                             <td>ski kilo litre pizza police machine magazine</td>
                         </tr>
                         <tr>
                             <td>eo</td>
+                            <td> </td>
                             <td>people</td>
                         </tr>
                     </table>
                 </div>
 
                  <div class="content">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_1/Track_01.mp3"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 09.mp3" starTime="1:16" endTime="-1"></span>
                     Now, listen and say these sentences. You will need to pause the recording
                     to give yourself enough time to repeat.<br />
                     <br />
@@ -76,7 +86,7 @@
             <![CDATA[
                 <h3 class="header">How to make the sound /i/</h3>
                 <div class="content">
-                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_1/Track_01.mp3"></span>
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="0" endTime="0"></span>
                     /i/ is a short sound. Look at the diagram. Listen and then say the sound.
                     Make your mouth a bit less wide than for /i:/. Your tongue is a but further back
                     in your mouth than for /i:/. Target sound: /i/.
@@ -86,9 +96,52 @@
         <lessonContent>
             <![CDATA[
                 <h3 class="header">Sound and spelling</h3>
-                <div class="content">
-                    <span class="audio-component" audioSource="unit-1/a9a.mp3"></span>
 
+                <div class="content">
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="0" endTime="0"></span>
+                    /i/ is usually spelled i. Listen and say these words.<br />
+                    <br />
+                    <div class="content-wide-space">if listen miss dinner swim</div>
+                </div>
+
+                <div class="content">
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="0" endTime="0"></span>
+                    Listen and say these other words with /i/.<br />
+                    <br />
+                    <div class="content-wide-space">busy business building system</div>
+                </div>
+
+                <div class="content">
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3"  starTime="0" endTime="0"></span>
+                    Now listen and say these phrases.<br />
+                    <br />
+                    <div class="content-wrapper">
+                        1. fifty-six<br />
+                        2. dinner in the kitchen<br />
+                        3. a cinema ticket<br />
+                        4. a picture of a building<br />
+                        5. big business
+                    </div>
+                </div>
+
+                <div class="content danger">
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3"  starTime="0" endTime="0"></span>
+                    Note: Units 2 to 10 focus on vowel sounds in stressed syllables (see Section B Syllables and words).<i/>
+                    Vowel sounds in unstressed syllables often have the weak vowel /ə/. Listen and repeat.<br />
+                    <br />
+                    <div class="content-wide-space">
+                        agree equal kitchen museum Peter picture pizza
+                    </div>
+                </div>
+
+                 <div class="content">
+                    <span class="audio-component" audioSource="../data/pronunciation_in_use/elementary/unit_2/audios/Track 10.mp3" starTime="0" endTime="0"></span>
+                    Note: Units 2 to 10 focus on vowel sounds in stressed syllables (see Section B Syllables and words).<i/>
+                    Vowel sounds in unstressed syllables often have the weak vowel /ə/. Listen and repeat.<br />
+                    <br />
+                    <div class="content-wide-space">
+                        agree equal kitchen museum Peter picture pizza
+                    </div>
                 </div>
             ]]>
         </lessonContent>

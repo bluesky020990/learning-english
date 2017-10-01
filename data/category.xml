@@ -171,9 +171,9 @@
                 <productName>Pronunciation In Use Elementary</productName>
                 <listUnits>
                     <unit>
-                        <unitCode>unit_1</unitCode>
-                        <unitName>Present continuous</unitName>
-                        <xmlSource>../data/pronunciation_in_use/elementary/unit_1/unit_1.xml</xmlSource>
+                        <unitCode>unit_2</unitCode>
+                        <unitName>Pizza for dinner</unitName>
+                        <xmlSource>../data/pronunciation_in_use/elementary/unit_2/data.xml</xmlSource>
                     </unit>
 
                 </listUnits>
@@ -186,7 +186,7 @@
                     <unit>
                         <unitCode>unit_1</unitCode>
                         <unitName>Present continuous</unitName>
-                        <xmlSource>../data/pronunciation_in_use/elementary/unit_1/unit_1.xml</xmlSource>
+                        <xmlSource>../data/pronunciation_in_use/elementary/unit_2/data.xml</xmlSource>
                     </unit>
 
 

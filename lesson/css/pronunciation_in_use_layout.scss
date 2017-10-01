@@ -14,18 +14,23 @@ $programColor : #E6555F;
     border: 2px solid $programColor;
   }
   .lesson-title{
-    opacity: 0;
+    //opacity: 0;
   }
 
   .lesson-content{
+    padding-left: 50px;
     .header{
       margin-top: 0px;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       color: $programColor;
     }
 
     .content{
       position: relative;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #f5f5f5;
+      border-radius: 6px;
     }
   }
 

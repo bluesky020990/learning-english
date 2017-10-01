@@ -1,6 +1,6 @@
 function Audio_Component() {
     var me = this;
-    var currentAudio = null;
+    var activeAudio = null;
 
 
     this.initComponent = function(){
@@ -23,10 +23,23 @@ function Audio_Component() {
             var offset = $(audioComponent).offset();
             var $audioComponent = me.generateAudioComponent();
 
-            currentAudio = new Audio(audioSource);
-            currentAudio.onloadedmetadata = function() {
-                me.loadAudioData(this);
+            activeAudio = new Audio(audioSource);
+
+            activeAudio.onloadedmetadata = function() {
+                me.audio_loadAudioData(this);
             };
+
+            $audioComponent.find('.audio-play-button').unbind("click").click(function(){
+                if ($(this).hasClass("playing")){
+                    me.audio_paused();
+                } else {
+                    me.audio_played();
+                }
+            });
+
+            $audioComponent.find('.line-song').unbind("click").click(function(event){
+                me.audio_setPosition(this, event);
+            });
 
             $audioComponent.css({
                 'top': offset.top,
@@ -34,47 +47,40 @@ function Audio_Component() {
             });
 
             $(audioComponent).addClass("is-playing");
+
+            me.audio_played();
         }
     };
 
-    this.loadAudioData = function(audioPlayer){
-        if(audioPlayer != null && audioPlayer.duration != null && audioPlayer.duration >= 0){
-            audioPlayer.ontimeupdate = function(){
-                me.audio_updateTime(this);
-            };
-            audioPlayer.volume = 1;
+    this.audio_loadAudioData = function(activeAudio){
+        if(activeAudio != null && activeAudio.duration != null && activeAudio.duration >= 0){
+
+            activeAudio.addEventListener("timeupdate", me.audio_updateTime);
+
+            activeAudio.volume = 1;
 
             $('.audio-component-player').find('.process-time').html("00:00");
-            $('.audio-component-player').find('.total-time').html(Math.floor(audioPlayer.duration / 60) + ":" + (Math.floor(audioPlayer.duration % 60) < 10 ? '0' : '') + Math.floor(audioPlayer.duration % 60));
-
-
-
-            audioPlayer.play();
-            $('.audio-component-player').find('.audio-play-button').addClass("playing");
+            $('.audio-component-player').find('.total-time').html(Math.floor(activeAudio.duration / 60) + ":" + (Math.floor(activeAudio.duration % 60) < 10 ? '0' : '') + Math.floor(activeAudio.duration % 60));
         } else {
             $('.audio-component-player').find('.process-time').html("00:00");
             $('.audio-component-player').find('.total-time').html("00:00");
         }
     };
 
-    this.audio_updateTime = function (audioPlayer){
-        if(audioPlayer != null){
-            var currentSeconds = (Math.floor(audioPlayer.currentTime % 60) < 10 ? '0' : '') + Math.floor(audioPlayer.currentTime % 60);
-            var currentMinutes = Math.floor(audioPlayer.currentTime / 60);
+    this.audio_updateTime = function (){
+        if(activeAudio != null){
+            var currentSeconds = (Math.floor(activeAudio.currentTime % 60) < 10 ? '0' : '') + Math.floor(activeAudio.currentTime % 60);
+            var currentMinutes = Math.floor(activeAudio.currentTime / 60);
 
             $('.audio-component-player').find('.process-time').html(currentMinutes + ":" + currentSeconds);
 
-            var percentageOfSong = (audioPlayer.currentTime/ audioPlayer.duration);
+            var percentageOfSong = (activeAudio.currentTime/ activeAudio.duration);
             var percentageOfSlider = $('.line-song').width() * percentageOfSong;
             $('.track-progress').css({left: Math.round(percentageOfSlider) + "px" });
 
             if(percentageOfSong == 1){
-                // add class
-                // set begin time
-                // $('#songPlayPause').removeClass('play');
-                // $('#songPlayPause').addClass('pause');
                 $('.audio-component-player').find('.audio-play-button').removeClass("playing");
-                audioPlayer.currentTime = 0;
+                activeAudio.currentTime = 20;
             }
         }
     };
@@ -98,46 +104,32 @@ function Audio_Component() {
         var $audioComponent = $(audioComponent.join(""));
         $('body').append($audioComponent);
 
-        $audioComponent.find('.audio-play-button').click(function(){
-            if ($(this).hasClass("playing")){
-                me.audio_paused();
-            } else {
-                me.audio_played();
-            }
-        });
-
-        $audioComponent.find('.line-song').click(function(event){
-            me.audio_setPosition(this, event);
-        });
-
         return $audioComponent;
     };
 
     this.audio_played = function(){
-        if(currentAudio != null){
-            currentAudio.play();
+        if(activeAudio != null){
+            activeAudio.play();
+            $('.audio-component-player').find('.audio-play-button').addClass("playing");
         }
-
-        $('.audio-component-player').find('.audio-play-button').addClass("playing");
-    }
+    };
 
 
     this.audio_paused = function (){
-        if(currentAudio != null){
-            currentAudio.pause();
+        if(activeAudio != null){
+            activeAudio.pause();
+            $('.audio-component-player').find('.audio-play-button').removeClass("playing");
         }
-
-        $('.audio-component-player').find('.audio-play-button').removeClass("playing");
     };
 
     this.audio_stopped = function (){
-        if(currentAudio != null){
-            currentAudio.pause();
-            currentAudio = null;
-        }
+        if(activeAudio != null){
+            activeAudio.pause();
+            activeAudio = null;
 
-        $('.audio-component.is-playing').removeClass("is-playing");
-        $('.audio-component-player').remove();
+            $('.audio-component.is-playing').removeClass("is-playing");
+            $('.audio-component-player').remove();
+        }
     };
 
     this.audio_setPosition = function (obj, e){
@@ -150,8 +142,8 @@ function Audio_Component() {
     };
 
     this.audio_setLocation = function (percentage){
-        if(currentAudio != null){
-            currentAudio.currentTime = currentAudio.duration * percentage;
+        if(activeAudio != null){
+            activeAudio.currentTime = activeAudio.duration * percentage;
         }
     };
 

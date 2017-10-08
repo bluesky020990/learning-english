@@ -5,6 +5,7 @@ function QuestionComponent() {
     var componentMap = {};
     componentMap[FILL_IN_BLANK_TYPE] = fibComponent;
     componentMap[MATCHING_TYPE] = matchingComponent;
+    componentMap[DROP_DOWN_TYPE] = dropDownComponent;
 
 
     // set to array

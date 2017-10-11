@@ -89,6 +89,8 @@ function DragNDropUtil(){
         }
 
         // callbackDrag
+
+        stretchOutDocument();
     }
 
 
@@ -142,6 +144,7 @@ function DragNDropUtil(){
         }
 
         $(ui.helper).remove();
+        stretchOutDocument();
 
         function acceptAnElement(dropZone, ui){
             var $dragChild = $(dropZone).find('.' + DRAG_ITEM_CLASS);

@@ -154,9 +154,9 @@
 
                         <table class="drag-n-drop-table" border="0" cellspacing="0" cellpadding="0" style="width: 600px;">
                             <tr>
-                                <th style="width: 225px;">Words with /ɑ:/</th>
-                                <th style="width: 50px;"></th>
-                                <th style="width: 225px;">Word with other vowel sounds</th>
+                                <th style="width: 225px; line-height: 40px">Words with /ɑ:/</th>
+                                <th style="width: 50px;  line-height: 40px"></th>
+                                <th style="width: 225px; line-height: 40px">Word with other vowel sounds</th>
                             </tr>
 
                             <tr>
@@ -197,16 +197,16 @@
                             <span class="draggable"  idx="h">push</span>
                         </div>
 
-                        <table border="0" cellspacing="0" cellpadding="0" style="width: 600px;">
+                        <table class="drag-n-drop-table"  border="0" cellspacing="0" cellpadding="0" style="width: 600px;">
                             <tr>
-                                <th style="width: 225px;">Words with /ʌ/</th>
-                                <th style="width: 50px;"></th>
-                                <th style="width: 225px;">Word with other vowel sounds</th>
+                                <th style="width: 225px; line-height: 40px">Words with /ʌ/</th>
+                                <th style="width: 50px; line-height: 40px"></th>
+                                <th style="width: 225px; line-height: 40px">Word with other vowel sounds</th>
                             </tr>
-                            <tr>
-                                <td><div class="droppable" idx="A"></div></td>
+                             <tr>
+                                <td><div class="drop-container" multipleDrop="true"><div class="droppable" idx="A"></div></div></td>
                                 <td></td>
-                                <td><div class="droppable" idx="B"></div></td>
+                                <td><div class="drop-container"  multipleDrop="true"><div class="droppable" idx="B"></div></div></td>
                             </tr>
                         </table>
                     </div>

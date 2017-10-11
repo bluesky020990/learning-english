@@ -33,8 +33,6 @@ function ResourceXMLReading (){
     };
 
     this.renderLayoutFromData = function (){
-        console.dir(unitData);
-
         $('body').find('.unit-title').html(unitData.title);
         $('body').find('.resource-title').html(unitData.description);
 

@@ -36,8 +36,7 @@ body {
   width: calc(100% - 250px); }
 
 .resource-content {
-  height: auto;
-  overflow: hidden; }
+  height: auto; }
 
 .lesson-controller-tab {
   width: 100%;
@@ -58,6 +57,10 @@ body {
       text-align: right; }
     .lesson-controller-tab span.tab-controller.active {
       color: #000; }
+
+.footer {
+  text-align: center;
+  margin-top: 25px; }
 
 #lesson-container,
 #exercise-container {
@@ -155,6 +158,8 @@ br.clear-both {
     left: 0px;
     font-family: 'HelveticaNeue-Bold';
     text-align: center; }
+  .question-group .question-note {
+    margin-top: 25px; }
 
 .direction-line {
   font-family: "HelveticaNeue-Bold"; }

@@ -142,32 +142,32 @@
 
                     <div class="word-box-component" componentType="Choosing_n_Drag" subType="set" componentId="unit_4_question_1">
                         <div class="work-box-display">
-                            <span class="draggable"  data="a">artist</span>
-                            <span class="draggable"  data="b">garden</span>
-                            <span class="draggable"  data="c">March</span>
-                            <span class="draggable"  data="d">part</span>
-                            <span class="draggable"  data="e">square</span>
-                            <span class="draggable"  data="f">talk</span>
-                            <span class="draggable"  data="g">warm</span>
-                            <span class="draggable"  data="h">watch</span>
+                            <span class="draggable"  idx="a">artist</span>
+                            <span class="draggable"  idx="b">garden</span>
+                            <span class="draggable"  idx="c">March</span>
+                            <span class="draggable"  idx="d">part</span>
+                            <span class="draggable"  idx="e">square</span>
+                            <span class="draggable"  idx="f">talk</span>
+                            <span class="draggable"  idx="g">warm</span>
+                            <span class="draggable"  idx="h">watch</span>
                         </div>
 
-                        <table border="0" cellspacing="0" cellpadding="0">
+                        <table class="drag-n-drop-table" border="0" cellspacing="0" cellpadding="0" style="width: 600px;">
                             <tr>
-                                <th>Words with /ɑ:/</th>
+                                <th style="width: 225px;">Words with /ɑ:/</th>
                                 <th style="width: 50px;"></th>
-                                <th>Word with other vowel sounds</th>
+                                <th style="width: 225px;">Word with other vowel sounds</th>
                             </tr>
 
                             <tr>
-                                <td><div class="droppable" set="A"></div></td>
+                                <td><div class="drop-container" multipleDrop="true"><div class="droppable" idx="A"></div></div></td>
                                 <td></td>
-                                <td><div class="droppable" set="B"></div></td>
+                                <td><div class="drop-container"  multipleDrop="true"><div class="droppable" idx="B"></div></div></td>
                             </tr>
                         </table>
                     </div>
 
-                    Check with the Key. Then listen again and repeat.
+                    <div class="question-note">Check with the Key. Then listen again and repeat.</div>
                 ]]>
             </content>
             <components>
@@ -187,30 +187,31 @@
                 <![CDATA[
                     <div class="word-box-component" componentType="Choosing_n_Drag" subType="set" componentId="unit_4_question_2">
                         <div class="work-box-display">
-                            <span class="draggable"  data="a">business</span>
-                            <span class="draggable"  data="b">country</span>
-                            <span class="draggable"  data="c">fun</span>
-                            <span class="draggable"  data="d">home</span>
-                            <span class="draggable"  data="e">lots</span>
-                            <span class="draggable"  data="f">money</span>
-                            <span class="draggable"  data="g">mother</span>
-                            <span class="draggable"  data="h">push</span>
+                            <span class="draggable"  idx="a">business</span>
+                            <span class="draggable"  idx="b">country</span>
+                            <span class="draggable"  idx="c">fun</span>
+                            <span class="draggable"  idx="d">home</span>
+                            <span class="draggable"  idx="e">lots</span>
+                            <span class="draggable"  idx="f">money</span>
+                            <span class="draggable"  idx="g">mother</span>
+                            <span class="draggable"  idx="h">push</span>
                         </div>
 
-                        <table border="0" cellspacing="0" cellpadding="0">
+                        <table border="0" cellspacing="0" cellpadding="0" style="width: 600px;">
                             <tr>
-                                <th>Words with /ʌ/</th>
+                                <th style="width: 225px;">Words with /ʌ/</th>
                                 <th style="width: 50px;"></th>
-                                <th>Word with other vowel sounds</th>
+                                <th style="width: 225px;">Word with other vowel sounds</th>
                             </tr>
                             <tr>
-                                <td><div class="droppable" set="A"></div></td>
+                                <td><div class="droppable" idx="A"></div></td>
                                 <td></td>
-                                <td><div class="droppable" set="B"></div></td>
+                                <td><div class="droppable" idx="B"></div></td>
                             </tr>
                         </table>
                     </div>
-                    Check with the Key. Then listen again and repeat.
+
+                    <div class="question-note">Check with the Key. Then listen again and repeat.</div>
                 ]]>
             </content>
             <components>
@@ -228,21 +229,21 @@
                 <![CDATA[
                      <div class="word-box-component" componentType="Choosing_n_Write" subType="set" componentId="unit_4_question_3">
                         <div class="work-box-display">
-                            <span class="draggable"  data="a">butter</span>
-                            <span class="draggable"  data="b">carpet</span>
-                            <span class="draggable"  data="c">dark</span>
-                            <span class="draggable"  data="d">hard</span>
-                            <span class="draggable"  data="e">husband</span>
-                            <span class="draggable"  data="f">love</span>
-                            <span class="draggable"  data="g">Prague</span>
-                            <span class="draggable"  data="h">son</span>
+                            <span class="draggable"  idx="a">butter</span>
+                            <span class="draggable"  idx="b">carpet</span>
+                            <span class="draggable"  idx="c">dark</span>
+                            <span class="draggable"  idx="d">hard</span>
+                            <span class="draggable"  idx="e">husband</span>
+                            <span class="draggable"  idx="f">love</span>
+                            <span class="draggable"  idx="g">Prague</span>
+                            <span class="draggable"  idx="h">son</span>
                         </div>
 
                         <div class="choosing-n-write-container">
-                            <div class="choosing-n-write-sentence">The <span class="droppable" idx="1"></span> too <span class="droppable" idx="2"></span>.</div>
-                            <div class="choosing-n-write-sentence">I'd <span class="droppable" idx="3"></span> to buy that <span class="droppable" idx="4"></span>!</div>
-                            <div class="choosing-n-write-sentence">Their <span class="droppable" idx="5"></span>'s got <span class="droppable" idx="6"></span> hair.</div>
-                            <div class="choosing-n-write-sentence">I first met my <span class="droppable" idx="7"></span> in <span class="droppable" idx="8"></span>.</div>
+                            <div class="choosing-n-write-sentence">The <span class="droppable inline-drop" idx="1"></span> too <span class="droppable inline-drop" idx="2"></span>.</div>
+                            <div class="choosing-n-write-sentence">I'd <span class="droppable inline-drop" idx="3"></span> to buy that <span class="droppable inline-drop" idx="4"></span>!</div>
+                            <div class="choosing-n-write-sentence">Their <span class="droppable inline-drop" idx="5"></span>'s got <span class="droppable inline-drop" idx="6"></span> hair.</div>
+                            <div class="choosing-n-write-sentence">I first met my <span class="droppable inline-drop" idx="7"></span> in <span class="droppable inline-drop" idx="8"></span>.</div>
                         </div>
                     </div>
 
@@ -275,9 +276,13 @@
             <content>
                 <![CDATA[
                     1. <span componentType="Drop_Down_Component" componentId="unit_4_question_4_a"><span idx="1">heart</span><span idx="2">hat</span></span><br />
+                    <br />
                     2. <span componentType="Drop_Down_Component" componentId="unit_4_question_4_b"><span idx="1">far</span><span idx="2">four</span></span><br />
+                    <br />
                     3. <span componentType="Drop_Down_Component" componentId="unit_4_question_4_c"><span idx="1">cat</span><span idx="2">cut</span></span><br />
+                    <br />
                     4. <span componentType="Drop_Down_Component" componentId="unit_4_question_4_d"><span idx="1">look</span><span idx="2">luck</span></span><br />
+                    <br />
                     5. <span componentType="Drop_Down_Component" componentId="unit_4_question_4_e"><span idx="1">butter</span><span idx="2">better</span></span><br />
                 ]]>
             </content>

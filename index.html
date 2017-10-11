@@ -170,6 +170,16 @@
         });
     });
 
-
+    function scrollToOffset(offset){
+        var viewerOffsetTop = $("#unitContentViewer").offset().top;
+        var documentScrollTop = $(document).scrollTop();
+        var windowInnerHeight = window.innerHeight;
+        var currentViewPortPosition = offset + viewerOffsetTop - documentScrollTop;
+        if (currentViewPortPosition > windowInnerHeight - 100 && currentViewPortPosition < $(document).height() - 200) {
+            $(document).scrollTop(documentScrollTop + 50);
+        }else if (currentViewPortPosition < 100) {
+            $(document).scrollTop(documentScrollTop - 50);
+        }
+    }
 </script>
 </html>

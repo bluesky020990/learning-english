@@ -6,6 +6,8 @@ function QuestionComponent() {
     componentMap[FILL_IN_BLANK_TYPE] = fibComponent;
     componentMap[MATCHING_TYPE] = matchingComponent;
     componentMap[DROP_DOWN_TYPE] = dropDownComponent;
+    componentMap[CHOOSING_AND_WRITE_TYPE] = choosingAndWriteComponent;
+    componentMap[CHOOSING_AND_DRAG_TYPE] = dragNDropComponent;
 
 
     // set to array

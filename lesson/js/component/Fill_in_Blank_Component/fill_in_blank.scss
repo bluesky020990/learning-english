@@ -1,4 +1,11 @@
 input.fill-in-blank-field {
     padding: 3px 5px;
     font-size: inherit;
+    border: 0px solid transparent;
+    border-bottom: 1px solid #c5c5c5;
+
+    &:focus{
+        outline: none !important;
+    }
 }
+

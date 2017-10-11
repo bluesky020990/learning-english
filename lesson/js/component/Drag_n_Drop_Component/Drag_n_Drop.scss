@@ -23,6 +23,24 @@
     min-width: 100px;
     min-height: 30px;
     border-radius: 10px;
+    width: 100%;
+
+    &.inline-drop{
+      padding: 2px 5px;
+      width: 120px;
+      display: inline-block;
+      vertical-align: middle;
+      border-radius: 8px;
+      .draggable{
+        padding: 0px;
+      }
+    }
+  }
+
+  table.drag-n-drop-table{
+    tr td{
+      vertical-align: top;
+    }
   }
 }
 
@@ -40,5 +58,26 @@
     position: relative;
     float: left;
     width: 100%;
+  }
+}
+
+
+
+
+.drag-drop-zone{
+
+  .ui-draggable.ui-draggable-dragging{
+    z-index: 999;
+  }
+
+  .target-items{
+    &[multipledrop="true"]{
+      .drop-item .draggable:not(.ui-draggable-dragging) {
+        width: 100%;
+        padding: 2px 0px;
+        display: inline-block;
+        text-align: center;
+      }
+    }
   }
 }

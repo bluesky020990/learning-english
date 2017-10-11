@@ -45,9 +45,7 @@ body{
 
 .resource-content{
   height: auto;
-  overflow: hidden;
 }
-
 
 .lesson-controller-tab {
   width: 100%;
@@ -77,6 +75,11 @@ body{
     }
   }
 
+}
+
+.footer {
+  text-align: center;
+  margin-top: 25px;
 }
 
 
@@ -216,6 +219,10 @@ br.clear-both {
     left: 0px;
     font-family: 'HelveticaNeue-Bold';
     text-align: center;
+  }
+
+  .question-note {
+    margin-top: 25px;
   }
 }
 

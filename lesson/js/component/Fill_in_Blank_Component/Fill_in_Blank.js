@@ -5,13 +5,10 @@ function Fill_in_Blank_Component() {
 
     this.initComponent = function() {
         if ($('[componentType="' + FILL_IN_BLANK_TYPE +'"]').length > 0) {
-            console.dir("..............................");
             $('[componentType="' + FILL_IN_BLANK_TYPE +'"]').each(function(index, component) {
                 me.component_init(component);
             });
         }
-
-
     }
 
 

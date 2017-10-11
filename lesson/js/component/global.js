@@ -1,13 +1,12 @@
 var FILL_IN_BLANK_TYPE = "Fill_in_Blank";
 var MATCHING_TYPE = "Matching_Component";
 var DROP_DOWN_TYPE = "Drop_Down_Component";
+var CHOOSING_AND_WRITE_TYPE = "Choosing_n_Write";
+var CHOOSING_AND_DRAG_TYPE = "Choosing_n_Drag";
 
 
-var COLOR_ARRAY       = ['red',     'orange',  'yellow',  'darkgreen', 'aqua',    'blue',    'purple',  'pink',    'grey',    'dark'];
-var COLOR_ARRAY_VALUE = ['#ED1F24', '#F58220', '#FFCB05', '#00AAAC',    '#00B4EB', '#0474BB', '#7956A4', '#FF00CC', '#999999', '#666666'];
-
-// var COLOR_ARRAY       = ['red',     'orange',  'yellow',  'lightgreen', 'green',    'darkgreen', 'aqua',    'blue',    'purple',  'pink',    'grey',    'dark'];
-// var COLOR_ARRAY_VALUE = ['#ED1F24', '#F58220', '#FFCB05', '#99FF00',    '#00A14B', '#00AAAC',    '#00B4EB', '#0474BB', '#7956A4', '#FF00CC', '#999999', '#666666'];
+var COLOR_ARRAY       = ['red',     'orange',  'yellow',  'lightgreen', 'green',    'darkgreen', 'aqua',    'blue',    'purple',  'pink',    'grey',    'dark'];
+var COLOR_ARRAY_VALUE = ['#ED1F24', '#F58220', '#FFCB05', '#99FF00',    '#00A14B', '#00AAAC',    '#00B4EB', '#0474BB', '#7956A4', '#FF00CC', '#999999', '#666666'];
 
 var RAPHAEL_PAPER_CONTAINER_CLASS = "raphael-paper-container";
 

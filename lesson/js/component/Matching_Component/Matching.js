@@ -35,18 +35,18 @@ function MatchingComponent() {
         }
     };
 
-    this.showCorrectAnswer = function (containerType, questionNumber, componentId, answer) {
+    this.showCorrectAnswer = function (containerType, componentId, answer) {
 
-    };
+    }
 
-    this.getStudentResponse = function (questionNumber) {
+    this.getStudentResponse = function () {
 
-    };
+    }
 
 
     this.clearAnswer = function () {
 
-    };
+    }
 
     this.clearAnswerForQuestion = function (questionContainer) {
 

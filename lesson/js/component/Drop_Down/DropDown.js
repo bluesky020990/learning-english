@@ -20,11 +20,11 @@ function DropDownComponent(){
 
     }
 
-    this.showCorrectAnswer = function (containerType, questionNumber, componentId, answer) {
+    this.showCorrectAnswer = function (containerType, componentId, answer) {
 
     }
 
-    this.getStudentResponse = function (questionNumber) {
+    this.getStudentResponse = function () {
 
     }
 
@@ -36,7 +36,6 @@ function DropDownComponent(){
     this.clearAnswerForQuestion = function (questionContainer) {
 
     };
-
     this.component_init = function (component) {
         $(component).addClass("dropdown-component");
 

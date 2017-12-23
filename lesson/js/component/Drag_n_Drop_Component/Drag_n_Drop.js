@@ -10,11 +10,11 @@ function Drag_n_Drop_Component(){
         }
     }
 
-    this.showCorrectAnswer = function (containerType, questionNumber, componentId, answer) {
+    this.showCorrectAnswer = function (containerType, componentId, answer) {
 
     }
 
-    this.getStudentResponse = function (questionNumber) {
+    this.getStudentResponse = function () {
 
     }
 

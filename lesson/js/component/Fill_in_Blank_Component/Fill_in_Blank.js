@@ -12,16 +12,20 @@ function Fill_in_Blank_Component() {
     }
 
 
-    this.getStudentResponse = function (questionNumber){
+    this.showCorrectAnswer = function (containerType, componentId, answer) {
+
+    }
+
+    this.getStudentResponse = function () {
 
     }
 
 
-    this.clearAnswer = function (){
+    this.clearAnswer = function () {
 
     }
 
-    this.clearAnswerForQuestion = function (questionContainer){
+    this.clearAnswerForQuestion = function (questionContainer) {
 
     };
 
